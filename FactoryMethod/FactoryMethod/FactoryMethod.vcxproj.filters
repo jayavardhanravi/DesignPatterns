@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\common">
+      <UniqueIdentifier>{c473c4e4-e012-42ee-b47b-e4dddf45f129}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\common">
+      <UniqueIdentifier>{87173279-c5d7-4666-921e-ac61313f243e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\builder">
+      <UniqueIdentifier>{004944b5-2af9-4481-8401-b6b2ce96b435}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\builder">
+      <UniqueIdentifier>{c5f0a122-a4e1-4d57-abdc-74b0b8a0227e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FactoryMethod.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\Sphere.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\Cylinder.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\Cone.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\Box.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="builder\BoxMeshBuilder.cpp">
+      <Filter>Source Files\builder</Filter>
+    </ClCompile>
+    <ClCompile Include="builder\ConeMeshBuilder.cpp">
+      <Filter>Source Files\builder</Filter>
+    </ClCompile>
+    <ClCompile Include="builder\CylinderMeshBuilder.cpp">
+      <Filter>Source Files\builder</Filter>
+    </ClCompile>
+    <ClCompile Include="builder\SphereMeshBuilder.cpp">
+      <Filter>Source Files\builder</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="common\Box.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\Cone.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\Cylinder.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\Mesh.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\Sphere.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="builder\BoxMeshBuilder.h">
+      <Filter>Header Files\builder</Filter>
+    </ClInclude>
+    <ClInclude Include="builder\ConeMeshBuilder.h">
+      <Filter>Header Files\builder</Filter>
+    </ClInclude>
+    <ClInclude Include="builder\CylinderMeshBuilder.h">
+      <Filter>Header Files\builder</Filter>
+    </ClInclude>
+    <ClInclude Include="builder\MeshBuilder.h">
+      <Filter>Header Files\builder</Filter>
+    </ClInclude>
+    <ClInclude Include="builder\SphereMeshBuilder.h">
+      <Filter>Header Files\builder</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
