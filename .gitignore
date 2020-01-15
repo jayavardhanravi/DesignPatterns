@@ -1,7 +1,7 @@
 # Directories and Files that need to be ignored in git push
 
-**/Debug
-**/Release
-**/x64
-**/.vs
-**/Doxyfile
+**/FactoryMethod/Debug
+**/FactoryMethod/Release
+**/FactoryMethod/x64
+**/FactoryMethod/.vs
+**/Documentation/Doxyfile
