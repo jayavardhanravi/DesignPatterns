@@ -32,106 +32,16 @@
 */
 
 #include <iostream>
-
-// Include files for MeshBuilder Classes
-#include "builder/CylinderMeshBuilder.h"
-#include "builder/SphereMeshBuilder.h"
-#include "builder/BoxMeshBuilder.h"
-#include "builder/ConeMeshBuilder.h"
-
-/*!
-* @file FactoryMethod.cpp
-* @brief Enumeration class for identifying different types of mesh
-* @details There are various types of mesh shapes possible which include Cylinder, Sphere, Box and Cone
-* @class MESHTYPE
-*/
-enum class MESHTYPE
-{
-	CYLINDER,
-	SPHERE,
-	BOX,
-	CONE
-};
-
-/*!
-* @brief Provides the class for creating different mesh objects based on the MESHTYPE provided
-* @class TestApplication
-*/
-class TestApplication
-{
-public:
-	TestApplication();
-	~TestApplication();
-
-	std::unique_ptr<Mesh> BuildMesh(MESHTYPE);
-};
-
-/*!
-* @brief Constructor of TestApplication Class
-*/
-TestApplication::TestApplication()
-{
-
-}
-
-/*!
-* @brief Destructor of TestApplication Class
-*/
-TestApplication::~TestApplication()
-{
-
-}
-
-/*!
-* @file FactoryMethod.cpp
-* @brief Build Mesh Objects based on the MESHTYPE provided
-* @details 
-* Different mesh objects are created based on the different mesh types provided
-* @see MESHTYPE
-* @param[in] type Type of mesh To generate
-* @return Return the Unique pointer of the Mesh Object
-*/
-std::unique_ptr<Mesh> TestApplication::BuildMesh(MESHTYPE type)
-{
-	switch (type)
-	{
-	case MESHTYPE::CYLINDER:
-	{
-		CylinderMeshBuilder meshBuilder;
-		auto meshObj = meshBuilder.CreateMesh();
-		return meshObj;
-	}
-	case MESHTYPE::SPHERE:
-	{
-		SphereMeshBuilder meshBuilder;
-		auto meshObj = meshBuilder.CreateMesh();
-		return meshObj;
-	}
-	case MESHTYPE::BOX:
-	{
-		BoxMeshBuilder meshBuilder;
-		auto meshObj = meshBuilder.CreateMesh();
-		return meshObj;
-	}
-	case MESHTYPE::CONE:
-	{
-		ConeMeshBuilder meshBuilder;
-		auto meshObj = meshBuilder.CreateMesh();
-		return meshObj;
-	}
-	default:
-		return nullptr;
-	}
-}
+#include "builder/MeshBuilder.h"
 
 /*!
 * @brief Main Function to test the implementations
 */
 int main()
 {
-	TestApplication testApplication;
-	std::cout << "Cylinder Mesh -> " << testApplication.BuildMesh(MESHTYPE::CYLINDER)->getName() << std::endl;
-	std::cout << "Sphere Mesh -> " << testApplication.BuildMesh(MESHTYPE::SPHERE)->getName() << std::endl;
-	std::cout << "Box Mesh -> " << testApplication.BuildMesh(MESHTYPE::BOX)->getName() << std::endl;
-	std::cout << "Cone Mesh -> " << testApplication.BuildMesh(MESHTYPE::CONE)->getName() << std::endl;
+	MeshBuilder testMeshBuilder;
+	std::cout << "Cylinder Mesh -> " << testMeshBuilder.CreateMesh(MESHTYPE::CYLINDER)->getName() << std::endl;
+	std::cout << "Sphere Mesh -> " << testMeshBuilder.CreateMesh(MESHTYPE::SPHERE)->getName() << std::endl;
+	std::cout << "Box Mesh -> " << testMeshBuilder.CreateMesh(MESHTYPE::BOX)->getName() << std::endl;
+	std::cout << "Cone Mesh -> " << testMeshBuilder.CreateMesh(MESHTYPE::CONE)->getName() << std::endl;
 }

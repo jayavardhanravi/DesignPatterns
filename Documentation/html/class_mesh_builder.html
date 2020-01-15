@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.15"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Design Patterns: MeshBuilder Class Reference</title>
+<title>Design Patterns - C++: MeshBuilder Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,9 +21,8 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Design Patterns
+   <div id="projectname">Design Patterns - C++
    </div>
-   <div id="projectbrief">C++</div>
   </td>
  </tr>
  </tbody>
@@ -66,60 +65,85 @@ $(function() {
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="class_mesh_builder-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">MeshBuilder Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
+<div class="title">MeshBuilder Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Provides the class for creating different mesh objects based on the MESHTYPE provided.  
+ <a href="class_mesh_builder.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="_mesh_builder_8h_source.html">MeshBuilder.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for MeshBuilder:</div>
 <div class="dyncontent">
- <div class="center">
-  <img src="class_mesh_builder.png" usemap="#MeshBuilder_map" alt=""/>
-  <map id="MeshBuilder_map" name="MeshBuilder_map">
-<area href="class_box_mesh_builder.html" alt="BoxMeshBuilder" shape="rect" coords="0,56,131,80"/>
-<area href="class_cone_mesh_builder.html" alt="ConeMeshBuilder" shape="rect" coords="141,56,272,80"/>
-<area href="class_cylinder_mesh_builder.html" alt="CylinderMeshBuilder" shape="rect" coords="282,56,413,80"/>
-<area href="class_sphere_mesh_builder.html" alt="SphereMeshBuilder" shape="rect" coords="423,56,554,80"/>
-  </map>
-</div></div>
+<div class="center"><img src="class_mesh_builder__inherit__graph.png" border="0" usemap="#_mesh_builder_inherit__map" alt="Inheritance graph"/></div>
+<map name="_mesh_builder_inherit__map" id="_mesh_builder_inherit__map">
+<area shape="rect"  title="Provides the class for creating different mesh objects based on the MESHTYPE provided." alt="" coords="29,145,152,252"/>
+<area shape="rect"  href="class_mesh_builder_interface.html" title=" " alt="" coords="5,5,176,97"/>
+</map>
+</div>
+<div class="dynheader">
+Collaboration diagram for MeshBuilder:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_mesh_builder__coll__graph.png" border="0" usemap="#_mesh_builder_coll__map" alt="Collaboration graph"/></div>
+<map name="_mesh_builder_coll__map" id="_mesh_builder_coll__map">
+<area shape="rect"  title="Provides the class for creating different mesh objects based on the MESHTYPE provided." alt="" coords="29,145,152,252"/>
+<area shape="rect"  href="class_mesh_builder_interface.html" title=" " alt="" coords="5,5,176,97"/>
+</map>
+</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a0ca7377cf981c1c2996f2f6dbc588352"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mesh_builder.html#a0ca7377cf981c1c2996f2f6dbc588352">~MeshBuilder</a> ()</td></tr>
-<tr class="separator:a0ca7377cf981c1c2996f2f6dbc588352"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a41cfd23b93c25bc016c889c2c67a2637"><td class="memItemLeft" align="right" valign="top">virtual std::unique_ptr&lt; <a class="el" href="class_mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mesh_builder.html#a41cfd23b93c25bc016c889c2c67a2637">CreateMesh</a> ()=0</td></tr>
-<tr class="separator:a41cfd23b93c25bc016c889c2c67a2637"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13fe22fd14a85f789dc9d7d4a8d2419d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mesh_builder.html#a13fe22fd14a85f789dc9d7d4a8d2419d">MeshBuilder</a> ()</td></tr>
+<tr class="separator:a13fe22fd14a85f789dc9d7d4a8d2419d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac409c889085089b34c5297cf7150f49d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mesh_builder.html#ac409c889085089b34c5297cf7150f49d">~MeshBuilder</a> ()</td></tr>
+<tr class="separator:ac409c889085089b34c5297cf7150f49d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51d89fe601df06e63112c70416ac03dc"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="class_mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mesh_builder.html#a51d89fe601df06e63112c70416ac03dc">CreateMesh</a> (<a class="el" href="_mesh_builder_interface_8h.html#ad6436347ddb93aed826a19081b53dd61">MESHTYPE</a>)</td></tr>
+<tr class="separator:a51d89fe601df06e63112c70416ac03dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_mesh_builder_interface"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_mesh_builder_interface')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_mesh_builder_interface.html">MeshBuilderInterface</a></td></tr>
+<tr class="memitem:a28fb0d634106aaac150e1314e7c9c876 inherit pub_methods_class_mesh_builder_interface"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mesh_builder_interface.html#a28fb0d634106aaac150e1314e7c9c876">~MeshBuilderInterface</a> ()</td></tr>
+<tr class="separator:a28fb0d634106aaac150e1314e7c9c876 inherit pub_methods_class_mesh_builder_interface"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a0ca7377cf981c1c2996f2f6dbc588352"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0ca7377cf981c1c2996f2f6dbc588352">&#9670;&nbsp;</a></span>~MeshBuilder()</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Provides the class for creating different mesh objects based on the MESHTYPE provided. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a13fe22fd14a85f789dc9d7d4a8d2419d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a13fe22fd14a85f789dc9d7d4a8d2419d">&#9670;&nbsp;</a></span>MeshBuilder()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual MeshBuilder::~MeshBuilder </td>
+          <td class="memname">MeshBuilder::MeshBuilder </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac409c889085089b34c5297cf7150f49d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac409c889085089b34c5297cf7150f49d">&#9670;&nbsp;</a></span>~MeshBuilder()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MeshBuilder::~MeshBuilder </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
 </div><div class="memdoc">
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a41cfd23b93c25bc016c889c2c67a2637"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a41cfd23b93c25bc016c889c2c67a2637">&#9670;&nbsp;</a></span>CreateMesh()</h2>
+<a id="a51d89fe601df06e63112c70416ac03dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a51d89fe601df06e63112c70416ac03dc">&#9670;&nbsp;</a></span>CreateMesh()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -128,25 +152,27 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual std::unique_ptr&lt;<a class="el" href="class_mesh.html">Mesh</a>&gt; MeshBuilder::CreateMesh </td>
+          <td class="memname">std::unique_ptr&lt; <a class="el" href="class_mesh.html">Mesh</a> &gt; MeshBuilder::CreateMesh </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype"><a class="el" href="_mesh_builder_interface_8h.html#ad6436347ddb93aed826a19081b53dd61">MESHTYPE</a>&#160;</td>
+          <td class="paramname"><em>type</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="class_sphere_mesh_builder.html#a17080b8851c3c5395e82536c44c0e7ec">SphereMeshBuilder</a>, <a class="el" href="class_box_mesh_builder.html#a3c5a331f00e2bec89baff4711e0d2dc4">BoxMeshBuilder</a>, <a class="el" href="class_cone_mesh_builder.html#a19a21fdb3432d350817df21315a5f93e">ConeMeshBuilder</a>, and <a class="el" href="class_cylinder_mesh_builder.html#a266221f05078711983a5c40f3edb58ba">CylinderMeshBuilder</a>.</p>
+<p>Implements <a class="el" href="class_mesh_builder_interface.html#a2d9b31466ef198b2029438970af81323">MeshBuilderInterface</a>.</p>
 
 </div>
 </div>
-<hr/>The documentation for this class was generated from the following file:<ul>
-<li>FactoryMethod/FactoryMethod/builder/<a class="el" href="_mesh_builder_8h_source.html">MeshBuilder.h</a></li>
+<hr/>The documentation for this class was generated from the following files:<ul>
+<li><a class="el" href="_mesh_builder_8h_source.html">MeshBuilder.h</a></li>
+<li><a class="el" href="_mesh_builder_8cpp.html">MeshBuilder.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

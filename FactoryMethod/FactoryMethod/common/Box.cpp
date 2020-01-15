@@ -10,5 +10,5 @@ Box::~Box()
 
 std::string Box::getName()
 {
-	return "[P]_Box";
+	return "[P]_BOX";
 }

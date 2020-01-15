@@ -10,5 +10,5 @@ Cone::~Cone()
 
 std::string Cone::getName()
 {
-	return "[P]_Cone";
+	return "[P]_CONE";
 }

@@ -42,16 +42,7 @@
     <ClCompile Include="common\Box.cpp">
       <Filter>Source Files\common</Filter>
     </ClCompile>
-    <ClCompile Include="builder\BoxMeshBuilder.cpp">
-      <Filter>Source Files\builder</Filter>
-    </ClCompile>
-    <ClCompile Include="builder\ConeMeshBuilder.cpp">
-      <Filter>Source Files\builder</Filter>
-    </ClCompile>
-    <ClCompile Include="builder\CylinderMeshBuilder.cpp">
-      <Filter>Source Files\builder</Filter>
-    </ClCompile>
-    <ClCompile Include="builder\SphereMeshBuilder.cpp">
+    <ClCompile Include="builder\MeshBuilder.cpp">
       <Filter>Source Files\builder</Filter>
     </ClCompile>
   </ItemGroup>
@@ -71,20 +62,14 @@
     <ClInclude Include="common\Sphere.h">
       <Filter>Header Files\common</Filter>
     </ClInclude>
-    <ClInclude Include="builder\BoxMeshBuilder.h">
-      <Filter>Header Files\builder</Filter>
-    </ClInclude>
-    <ClInclude Include="builder\ConeMeshBuilder.h">
-      <Filter>Header Files\builder</Filter>
-    </ClInclude>
-    <ClInclude Include="builder\CylinderMeshBuilder.h">
+    <ClInclude Include="builder\MeshBuilderInterface.h">
       <Filter>Header Files\builder</Filter>
     </ClInclude>
     <ClInclude Include="builder\MeshBuilder.h">
       <Filter>Header Files\builder</Filter>
     </ClInclude>
-    <ClInclude Include="builder\SphereMeshBuilder.h">
-      <Filter>Header Files\builder</Filter>
-    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
 </Project>

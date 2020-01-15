@@ -2,45 +2,76 @@
 \label{class_mesh_builder}\index{MeshBuilder@{MeshBuilder}}
 
 
+Provides the class for creating different mesh objects based on the M\+E\+S\+H\+T\+Y\+PE provided.  
+
+
+
+
 {\ttfamily \#include $<$Mesh\+Builder.\+h$>$}
 
-Inheritance diagram for Mesh\+Builder\+:\begin{figure}[H]
+
+
+Inheritance diagram for Mesh\+Builder\+:
+\nopagebreak
+\begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[height=2.000000cm]{class_mesh_builder}
+\includegraphics[width=208pt]{class_mesh_builder__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Mesh\+Builder\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=208pt]{class_mesh_builder__coll__graph}
 \end{center}
 \end{figure}
 \subsection*{Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
-virtual \mbox{\hyperlink{class_mesh_builder_a0ca7377cf981c1c2996f2f6dbc588352}{$\sim$\+Mesh\+Builder}} ()
+\mbox{\hyperlink{class_mesh_builder_a13fe22fd14a85f789dc9d7d4a8d2419d}{Mesh\+Builder}} ()
 \item 
-virtual std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{class_mesh}{Mesh}} $>$ \mbox{\hyperlink{class_mesh_builder_a41cfd23b93c25bc016c889c2c67a2637}{Create\+Mesh}} ()=0
+\mbox{\hyperlink{class_mesh_builder_ac409c889085089b34c5297cf7150f49d}{$\sim$\+Mesh\+Builder}} ()
+\item 
+std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{class_mesh}{Mesh}} $>$ \mbox{\hyperlink{class_mesh_builder_a51d89fe601df06e63112c70416ac03dc}{Create\+Mesh}} (\mbox{\hyperlink{_mesh_builder_interface_8h_ad6436347ddb93aed826a19081b53dd61}{M\+E\+S\+H\+T\+Y\+PE}})
 \end{DoxyCompactItemize}
 
 
+\subsection{Detailed Description}
+Provides the class for creating different mesh objects based on the M\+E\+S\+H\+T\+Y\+PE provided. 
+
 \subsection{Constructor \& Destructor Documentation}
-\mbox{\Hypertarget{class_mesh_builder_a0ca7377cf981c1c2996f2f6dbc588352}\label{class_mesh_builder_a0ca7377cf981c1c2996f2f6dbc588352}} 
+\mbox{\Hypertarget{class_mesh_builder_a13fe22fd14a85f789dc9d7d4a8d2419d}\label{class_mesh_builder_a13fe22fd14a85f789dc9d7d4a8d2419d}} 
+\index{MeshBuilder@{MeshBuilder}!MeshBuilder@{MeshBuilder}}
+\index{MeshBuilder@{MeshBuilder}!MeshBuilder@{MeshBuilder}}
+\subsubsection{\texorpdfstring{MeshBuilder()}{MeshBuilder()}}
+{\footnotesize\ttfamily Mesh\+Builder\+::\+Mesh\+Builder (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_mesh_builder_ac409c889085089b34c5297cf7150f49d}\label{class_mesh_builder_ac409c889085089b34c5297cf7150f49d}} 
 \index{MeshBuilder@{MeshBuilder}!````~MeshBuilder@{$\sim$MeshBuilder}}
 \index{````~MeshBuilder@{$\sim$MeshBuilder}!MeshBuilder@{MeshBuilder}}
 \subsubsection{\texorpdfstring{$\sim$MeshBuilder()}{~MeshBuilder()}}
-{\footnotesize\ttfamily virtual Mesh\+Builder\+::$\sim$\+Mesh\+Builder (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+{\footnotesize\ttfamily Mesh\+Builder\+::$\sim$\+Mesh\+Builder (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
 
 
 
 \subsection{Member Function Documentation}
-\mbox{\Hypertarget{class_mesh_builder_a41cfd23b93c25bc016c889c2c67a2637}\label{class_mesh_builder_a41cfd23b93c25bc016c889c2c67a2637}} 
+\mbox{\Hypertarget{class_mesh_builder_a51d89fe601df06e63112c70416ac03dc}\label{class_mesh_builder_a51d89fe601df06e63112c70416ac03dc}} 
 \index{MeshBuilder@{MeshBuilder}!CreateMesh@{CreateMesh}}
 \index{CreateMesh@{CreateMesh}!MeshBuilder@{MeshBuilder}}
 \subsubsection{\texorpdfstring{CreateMesh()}{CreateMesh()}}
-{\footnotesize\ttfamily virtual std\+::unique\+\_\+ptr$<$\mbox{\hyperlink{class_mesh}{Mesh}}$>$ Mesh\+Builder\+::\+Create\+Mesh (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+{\footnotesize\ttfamily std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{class_mesh}{Mesh}} $>$ Mesh\+Builder\+::\+Create\+Mesh (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{_mesh_builder_interface_8h_ad6436347ddb93aed826a19081b53dd61}{M\+E\+S\+H\+T\+Y\+PE}}}]{type }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
 
 
 
-Implemented in \mbox{\hyperlink{class_sphere_mesh_builder_a17080b8851c3c5395e82536c44c0e7ec}{Sphere\+Mesh\+Builder}}, \mbox{\hyperlink{class_box_mesh_builder_a3c5a331f00e2bec89baff4711e0d2dc4}{Box\+Mesh\+Builder}}, \mbox{\hyperlink{class_cone_mesh_builder_a19a21fdb3432d350817df21315a5f93e}{Cone\+Mesh\+Builder}}, and \mbox{\hyperlink{class_cylinder_mesh_builder_a266221f05078711983a5c40f3edb58ba}{Cylinder\+Mesh\+Builder}}.
+Implements \mbox{\hyperlink{class_mesh_builder_interface_a2d9b31466ef198b2029438970af81323}{Mesh\+Builder\+Interface}}.
 
 
 
-The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
 \item 
-Factory\+Method/\+Factory\+Method/builder/\mbox{\hyperlink{_mesh_builder_8h}{Mesh\+Builder.\+h}}\end{DoxyCompactItemize}
+\mbox{\hyperlink{_mesh_builder_8h}{Mesh\+Builder.\+h}}\item 
+\mbox{\hyperlink{_mesh_builder_8cpp}{Mesh\+Builder.\+cpp}}\end{DoxyCompactItemize}

@@ -151,10 +151,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="builder\BoxMeshBuilder.cpp" />
-    <ClCompile Include="builder\ConeMeshBuilder.cpp" />
-    <ClCompile Include="builder\CylinderMeshBuilder.cpp" />
-    <ClCompile Include="builder\SphereMeshBuilder.cpp" />
+    <ClCompile Include="builder\MeshBuilder.cpp" />
     <ClCompile Include="common\Box.cpp" />
     <ClCompile Include="common\Cone.cpp" />
     <ClCompile Include="common\Cylinder.cpp" />
@@ -162,16 +159,16 @@
     <ClCompile Include="FactoryMethod.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="builder\BoxMeshBuilder.h" />
-    <ClInclude Include="builder\ConeMeshBuilder.h" />
-    <ClInclude Include="builder\CylinderMeshBuilder.h" />
     <ClInclude Include="builder\MeshBuilder.h" />
-    <ClInclude Include="builder\SphereMeshBuilder.h" />
+    <ClInclude Include="builder\MeshBuilderInterface.h" />
     <ClInclude Include="common\Box.h" />
     <ClInclude Include="common\Cone.h" />
     <ClInclude Include="common\Cylinder.h" />
     <ClInclude Include="common\Mesh.h" />
     <ClInclude Include="common\Sphere.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

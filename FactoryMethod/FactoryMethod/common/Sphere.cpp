@@ -10,5 +10,5 @@ Sphere::~Sphere()
 
 std::string Sphere::getName()
 {
-	return "[P]_Sphere";
+	return "[P]_SPHERE";
 }

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.15"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Design Patterns: FactoryMethod/FactoryMethod/FactoryMethod.cpp File Reference</title>
+<title>Design Patterns - C++: FactoryMethod.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,9 +21,8 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Design Patterns
+   <div id="projectname">Design Patterns - C++
    </div>
-   <div id="projectbrief">C++</div>
   </td>
  </tr>
  </tbody>
@@ -67,8 +66,6 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
-<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">FactoryMethod.cpp File Reference</div>  </div>
@@ -78,26 +75,26 @@ $(function() {
 <p>Design Patterns : Factory Method.  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;iostream&gt;</code><br />
-<code>#include &quot;<a class="el" href="_cylinder_mesh_builder_8h_source.html">builder/CylinderMeshBuilder.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="_sphere_mesh_builder_8h_source.html">builder/SphereMeshBuilder.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="_box_mesh_builder_8h_source.html">builder/BoxMeshBuilder.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="_cone_mesh_builder_8h_source.html">builder/ConeMeshBuilder.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="_mesh_builder_8h_source.html">builder/MeshBuilder.h</a>&quot;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Include dependency graph for FactoryMethod.cpp:</div>
+<div class="dyncontent">
+<div class="center"><img src="_factory_method_8cpp__incl.png" border="0" usemap="#_factory_method_8cpp" alt=""/></div>
+<map name="_factory_method_8cpp" id="_factory_method_8cpp">
+<area shape="rect"  title="Design Patterns : Factory Method." alt="" coords="291,5,426,32"/>
+<area shape="rect"  title=" " alt="" coords="256,80,328,107"/>
+<area shape="rect"  href="_mesh_builder_8h.html" title="Design Patterns : Factory Method." alt="" coords="352,80,499,107"/>
+<area shape="rect"  href="_mesh_builder_interface_8h.html" title="Design Patterns : Factory Method." alt="" coords="5,155,160,181"/>
+<area shape="rect"  href="_cylinder_8h.html" title="Design Patterns : Factory Method." alt="" coords="184,155,331,181"/>
+<area shape="rect"  href="_sphere_8h.html" title="Design Patterns : Factory Method." alt="" coords="355,155,495,181"/>
+<area shape="rect"  href="_box_8h.html" title="Design Patterns : Factory Method." alt="" coords="520,155,643,181"/>
+<area shape="rect"  href="_cone_8h.html" title="Design Patterns : Factory Method." alt="" coords="667,155,797,181"/>
+<area shape="rect"  title=" " alt="" coords="48,229,117,256"/>
+<area shape="rect"  href="_mesh_8h.html" title="Design Patterns : Factory Method." alt="" coords="360,229,491,256"/>
+<area shape="rect"  title=" " alt="" coords="398,304,453,331"/>
+</map>
+</div>
 </div><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_test_application.html">TestApplication</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides the class for creating different mesh objects based on the <a class="el" href="class_m_e_s_h_t_y_p_e.html">MESHTYPE</a> provided.  <a href="class_test_application.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
-Enumerations</h2></td></tr>
-<tr class="memitem:ad6436347ddb93aed826a19081b53dd61"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_factory_method_8cpp.html#ad6436347ddb93aed826a19081b53dd61">MESHTYPE</a> { <a class="el" href="_factory_method_8cpp.html#ad6436347ddb93aed826a19081b53dd61addec32fe897072b48368b1abe03de2aa">MESHTYPE::CYLINDER</a>, 
-<a class="el" href="_factory_method_8cpp.html#ad6436347ddb93aed826a19081b53dd61a6f7cea7381e843e2ee0338b4a92b0d43">MESHTYPE::SPHERE</a>, 
-<a class="el" href="_factory_method_8cpp.html#ad6436347ddb93aed826a19081b53dd61ae657cce1913c857166b0475f18668ef5">MESHTYPE::BOX</a>, 
-<a class="el" href="_factory_method_8cpp.html#ad6436347ddb93aed826a19081b53dd61ac55b85dc15b00950104cb1ac870876a5">MESHTYPE::CONE</a>
- }</td></tr>
-<tr class="separator:ad6436347ddb93aed826a19081b53dd61"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_factory_method_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a> ()</td></tr>
@@ -106,8 +103,6 @@ Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Design Patterns : Factory Method. </p>
-<p>Build <a class="el" href="class_mesh.html">Mesh</a> Objects based on the <a class="el" href="class_mesh.html">Mesh</a> type provided.</p>
-<p>Enumeration class for identifying different types of mesh.</p>
 <dl class="section author"><dt>Author</dt><dd>Jayavardhan Ravi </dd></dl>
 <dl class="section date"><dt>Date</dt><dd>01-15-2020</dd></dl>
 <p>BSD 2-Clause License</p>
@@ -117,46 +112,8 @@ Functions</h2></td></tr>
 <li>Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.</li>
 <li>Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.</li>
 </ol>
-<p>THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</p>
-<p>There are various types of mesh shapes possible which include <a class="el" href="class_cylinder.html">Cylinder</a>, <a class="el" href="class_sphere.html">Sphere</a>, <a class="el" href="class_box.html">Box</a> and <a class="el" href="class_cone.html">Cone</a></p>
-<p>Different mesh objects are created based on the different mesh types provided </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="class_m_e_s_h_t_y_p_e.html">MESHTYPE</a> </dd></dl>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">type</td><td>Type of <a class="el" href="class_mesh.html">Mesh</a> To Generate </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Return the Unique pointer of the <a class="el" href="class_mesh.html">Mesh</a> Object </dd></dl>
-</div><h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="ad6436347ddb93aed826a19081b53dd61"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad6436347ddb93aed826a19081b53dd61">&#9670;&nbsp;</a></span>MESHTYPE</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="class_m_e_s_h_t_y_p_e.html">MESHTYPE</a></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ad6436347ddb93aed826a19081b53dd61addec32fe897072b48368b1abe03de2aa"></a>CYLINDER&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ad6436347ddb93aed826a19081b53dd61a6f7cea7381e843e2ee0338b4a92b0d43"></a>SPHERE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ad6436347ddb93aed826a19081b53dd61ae657cce1913c857166b0475f18668ef5"></a>BOX&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ad6436347ddb93aed826a19081b53dd61ac55b85dc15b00950104cb1ac870876a5"></a>CONE&#160;</td><td class="fielddoc"></td></tr>
-</table>
-
-</div>
-</div>
-<h2 class="groupheader">Function Documentation</h2>
+<p>THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. </p>
+</div><h2 class="groupheader">Function Documentation</h2>
 <a id="ae66f6b31b5ad750f1fe042a706a4e3d4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae66f6b31b5ad750f1fe042a706a4e3d4">&#9670;&nbsp;</a></span>main()</h2>
 
