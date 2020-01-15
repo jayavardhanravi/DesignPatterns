@@ -84,11 +84,11 @@ TestApplication::~TestApplication()
 
 /*!
 * @file FactoryMethod.cpp
-* @brief Build Mesh Objects based on the Mesh type provided
+* @brief Build Mesh Objects based on the MESHTYPE provided
 * @details 
 * Different mesh objects are created based on the different mesh types provided
 * @see MESHTYPE
-* @param[in] type Type of Mesh To Generate
+* @param[in] type Type of mesh To generate
 * @return Return the Unique pointer of the Mesh Object
 */
 std::unique_ptr<Mesh> TestApplication::BuildMesh(MESHTYPE type)
