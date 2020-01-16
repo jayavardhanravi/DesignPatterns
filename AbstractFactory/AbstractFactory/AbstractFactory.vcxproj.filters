@@ -13,10 +13,84 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\common">
+      <UniqueIdentifier>{e2599b0a-8f07-4f75-9626-f474d5a839a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\common">
+      <UniqueIdentifier>{b5aa8d57-5266-4238-a507-412451fc3e54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\factory">
+      <UniqueIdentifier>{e9be52a4-8eef-40b7-b632-b8d89abe9531}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\factory">
+      <UniqueIdentifier>{d2bec3ef-e2f1-4506-955d-3c44716b1351}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\builder">
+      <UniqueIdentifier>{5bea3bc9-8933-4b4d-8cbf-2d5fddcf9870}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\builder">
+      <UniqueIdentifier>{0c36af54-f6e4-4363-8a94-ea82d4920829}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AbstractFactory.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="common\Cylinder.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\CylinderProperty.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="factory\CylinderMeshFactory.cpp">
+      <Filter>Source Files\factory</Filter>
+    </ClCompile>
+    <ClCompile Include="builder\MeshBuilder.cpp">
+      <Filter>Source Files\builder</Filter>
+    </ClCompile>
+    <ClCompile Include="factory\SphereMeshFactory.cpp">
+      <Filter>Source Files\factory</Filter>
+    </ClCompile>
+    <ClCompile Include="common\Sphere.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\SphereProperty.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="common\Cylinder.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\Mesh.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\MeshProperty.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\CylinderProperty.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="factory\CylinderMeshFactory.h">
+      <Filter>Header Files\factory</Filter>
+    </ClInclude>
+    <ClInclude Include="factory\MeshFactory.h">
+      <Filter>Header Files\factory</Filter>
+    </ClInclude>
+    <ClInclude Include="builder\MeshBuilder.h">
+      <Filter>Header Files\builder</Filter>
+    </ClInclude>
+    <ClInclude Include="factory\SphereMeshFactory.h">
+      <Filter>Header Files\factory</Filter>
+    </ClInclude>
+    <ClInclude Include="common\Sphere.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\SphereProperty.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
 </Project>
