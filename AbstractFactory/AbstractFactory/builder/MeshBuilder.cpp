@@ -15,15 +15,15 @@ bool MeshBuilder::GenerateMesh(MESHTYPE type)
 	case MESHTYPE::CYLINDER:
 	{
 		CylinderMeshFactory factory;
-		std::cout << "Print the mesh generated : " << factory.GetMesh()->GetMesh() << std::endl;
-		std::cout << "Print the mesh property : " << factory.GetProperty()->GetMeshProperty() << std::endl;
+		meshPtr = factory.GetMesh();
+		meshPropertyPtr = factory.GetProperty();
 		return true;
 	}
 	case MESHTYPE::SPHERE:
 	{
 		SphereMeshFactory factory;
-		std::cout << "Print the mesh generated : " << factory.GetMesh()->GetMesh() << std::endl;
-		std::cout << "Print the mesh property : " << factory.GetProperty()->GetMeshProperty() << std::endl;
+		meshPtr = factory.GetMesh();
+		meshPropertyPtr = factory.GetProperty();
 		return true;
 	}
 	default:

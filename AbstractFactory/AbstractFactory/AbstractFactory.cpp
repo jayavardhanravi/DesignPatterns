@@ -43,7 +43,11 @@ int main()
 
 	std::cout << "Testing for Cylinder..." << std::endl;
 	testMeshBuilder.GenerateMesh(MESHTYPE::CYLINDER);
+	std::cout << "Print the mesh generated : " << testMeshBuilder.meshPtr->GetMesh() << std::endl;
+	std::cout << "Print the mesh property : " << testMeshBuilder.meshPropertyPtr->GetMeshProperty() << std::endl;
 
 	std::cout << "Testing for Sphere..." << std::endl;
 	testMeshBuilder.GenerateMesh(MESHTYPE::SPHERE);
+	std::cout << "Print the mesh generated : " << testMeshBuilder.meshPtr->GetMesh() << std::endl;
+	std::cout << "Print the mesh property : " << testMeshBuilder.meshPropertyPtr->GetMeshProperty() << std::endl;
 }

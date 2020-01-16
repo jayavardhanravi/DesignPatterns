@@ -1,7 +1,5 @@
 #pragma once
 
-#include <iostream>
-
 #include "../factory/SphereMeshFactory.h"
 #include "../factory/CylinderMeshFactory.h"
 
@@ -18,5 +16,8 @@ public:
 	~MeshBuilder();
 
 	bool GenerateMesh(MESHTYPE);
+
+	std::unique_ptr<Mesh> meshPtr;
+	std::unique_ptr<MeshProperty> meshPropertyPtr;
 };
 
