@@ -13,10 +13,45 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\common">
+      <UniqueIdentifier>{0cc77741-6a58-48a8-915a-5e91139a4103}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\builder">
+      <UniqueIdentifier>{51efd481-76ac-4b6e-bc11-45beee06a955}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\common">
+      <UniqueIdentifier>{0734f05a-3806-4452-99c2-c1ee08df2bb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\builder">
+      <UniqueIdentifier>{11ec715e-0000-4991-aff7-a2a103377dff}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Prototype.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="common\CylinderMesh.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\SphereMesh.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="builder\MeshController.cpp">
+      <Filter>Source Files\builder</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="common\Mesh.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\CylinderMesh.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\SphereMesh.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="builder\MeshController.h">
+      <Filter>Header Files\builder</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
