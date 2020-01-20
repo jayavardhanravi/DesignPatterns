@@ -152,6 +152,17 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Builder.cpp" />
+    <ClCompile Include="builder\ClosedCanMeshBuilder.cpp" />
+    <ClCompile Include="builder\TubeMeshBuilder.cpp" />
+    <ClCompile Include="common\Cylinder.cpp" />
+    <ClCompile Include="controller\MeshBuildController.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="builder\ClosedCanMeshBuilder.h" />
+    <ClInclude Include="builder\MeshBuilder.h" />
+    <ClInclude Include="builder\TubeMeshBuilder.h" />
+    <ClInclude Include="common\Cylinder.h" />
+    <ClInclude Include="controller\MeshBuildController.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

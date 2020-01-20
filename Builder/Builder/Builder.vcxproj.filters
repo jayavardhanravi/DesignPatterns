@@ -13,10 +13,57 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\common">
+      <UniqueIdentifier>{6713b5d8-194f-494b-b42f-222552638ed0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\builder">
+      <UniqueIdentifier>{b8487868-9c6e-4b4d-916e-7942a5114ed1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\controller">
+      <UniqueIdentifier>{3963be9f-a7c5-4d93-87c8-1cdb70f97be2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\common">
+      <UniqueIdentifier>{5117a7a5-f36d-47b0-b0e8-7842aa750e52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\builder">
+      <UniqueIdentifier>{e1ea27c0-780a-47d3-9579-1a365059661d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\controller">
+      <UniqueIdentifier>{a36f823f-d84f-4f29-ad48-a7abba88b78d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Builder.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="common\Cylinder.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="builder\TubeMeshBuilder.cpp">
+      <Filter>Source Files\builder</Filter>
+    </ClCompile>
+    <ClCompile Include="builder\ClosedCanMeshBuilder.cpp">
+      <Filter>Source Files\builder</Filter>
+    </ClCompile>
+    <ClCompile Include="controller\MeshBuildController.cpp">
+      <Filter>Source Files\controller</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="builder\MeshBuilder.h">
+      <Filter>Header Files\builder</Filter>
+    </ClInclude>
+    <ClInclude Include="common\Cylinder.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="builder\TubeMeshBuilder.h">
+      <Filter>Header Files\builder</Filter>
+    </ClInclude>
+    <ClInclude Include="builder\ClosedCanMeshBuilder.h">
+      <Filter>Header Files\builder</Filter>
+    </ClInclude>
+    <ClInclude Include="controller\MeshBuildController.h">
+      <Filter>Header Files\controller</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -1,6 +1,6 @@
 /*!
 * @file AbstractFactory.cpp
-* @brief Design Patterns : Factory Method
+* @brief Design Patterns : Abstract Factory
 * @author Jayavardhan Ravi
 * @date 01-15-2020
 *

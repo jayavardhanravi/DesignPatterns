@@ -10,7 +10,7 @@ Collection of various design patterns with example implementation in C++. Creati
 | :---   | :--- |
 | [Factory Method] | General object construction is replaced with a specific method |
 | [Abstract Factory] | Group of related class without specifying concrete implementation |
-| [Builder] | |
+| [Builder] | Stepwise construction of Complex objects|
 | [Prototype] | |
 | [Singleton] | |
 
