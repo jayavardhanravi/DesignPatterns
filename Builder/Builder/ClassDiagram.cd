@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Cylinder">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IABAEAAAAAAAAAAgAEAAAAAAAAQAAACCAAwAAQCAAAA=</HashCode>
+      <FileName>common\Cylinder.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClosedCanMeshBuilder">
+    <Position X="3" Y="3.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAABAAIAAAAAAIAAAQAAAA=</HashCode>
+      <FileName>builder\ClosedCanMeshBuilder.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MeshBuilder">
+    <Position X="2" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAAABAAADAAAAAIAAAQAAAA=</HashCode>
+      <FileName>builder\MeshBuilder.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TubeMeshBuilder">
+    <Position X="0.75" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAAAABABAAAAAAAAAIAAAQAAAA=</HashCode>
+      <FileName>builder\TubeMeshBuilder.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MeshBuildController">
+    <Position X="4.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABEAAIAAACAAgAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>controller\MeshBuildController.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

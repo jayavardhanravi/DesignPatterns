@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CylinderMesh">
+    <Position X="0.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAACAAAAAAAAAAAAAAACQAAgAAAAAABA=</HashCode>
+      <FileName>common\CylinderMesh.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mesh">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAAAAAABA=</HashCode>
+      <FileName>common\Mesh.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SphereMesh">
+    <Position X="2.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAAAAAABAACQAAgAAAAAABA=</HashCode>
+      <FileName>common\SphereMesh.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MeshController">
+    <Position X="4.75" Y="3" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAgAAABAAAAAAAAAACAAgA=</HashCode>
+      <FileName>builder\MeshController.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="MESHTYPE">
+    <Position X="5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>builder\MeshController.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
