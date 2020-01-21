@@ -21,8 +21,9 @@ Collection of various design patterns with example implementation in C++. Creati
 -
 
 ### References
-
-| **Book Title** | *Design patterns elements of reusable object-oriented software* |
+|||
+| :---   | :---   | :---   |
+| **Book Title** | *Design Patterns Elements Of Reusable Object-Oriented Software* |
 | **Book Publisher** | *Addison-Wesley* |
 | **Publication Year** | *2016* |
 
