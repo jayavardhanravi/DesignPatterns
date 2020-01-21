@@ -12,7 +12,7 @@ Collection of various design patterns with example implementation in C++. Creati
 | [Abstract Factory] | Group of related class without specifying concrete implementation |
 | [Builder] | Stepwise construction of Complex objects|
 | [Prototype] | Object constructed from a prototype|
-| [Singleton] | |
+| [Singleton] | Build Class with single instance|
 
 #### Structural Design Patterns
 -

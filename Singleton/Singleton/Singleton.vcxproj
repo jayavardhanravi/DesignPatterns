@@ -153,6 +153,11 @@
   <ItemGroup>
     <ClCompile Include="Singleton.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="common\CommonSingleton.h" />
+    <ClInclude Include="common\CommonSingletonTest.h" />
+    <ClInclude Include="simple\SimpleSingleton.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

@@ -13,10 +13,27 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\simple">
+      <UniqueIdentifier>{e9b9b98d-38af-4a7e-8016-c6aa01a7bcd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\common">
+      <UniqueIdentifier>{fd05561b-d6ad-44a8-bb0b-d3cdd7f77317}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Singleton.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="common\CommonSingleton.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\CommonSingletonTest.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="simple\SimpleSingleton.h">
+      <Filter>Header Files\simple</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SimpleSingleton">
+    <Position X="4" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAABAAAABAIAAAgAQAAAAA=</HashCode>
+      <FileName>simple\SimpleSingleton.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CommonSingleton&lt;T&gt;">
+    <Position X="0.5" Y="0.5" Width="2.75" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="CommonSingleton&lt;T&gt;::HelperToken" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>common\CommonSingleton.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAABgAAAAAAA=</HashCode>
+      <FileName>common\CommonSingleton.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestCommonSingleton">
+    <Position X="0.5" Y="3.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>common\CommonSingletonTest.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
