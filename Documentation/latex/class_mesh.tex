@@ -21,7 +21,7 @@ Collaboration diagram for Mesh\+:
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=151pt]{class_mesh__coll__graph}
+\includegraphics[width=177pt]{class_mesh__coll__graph}
 \end{center}
 \end{figure}
 \subsection*{Public Member Functions}
@@ -29,7 +29,17 @@ Collaboration diagram for Mesh\+:
 \item 
 virtual \mbox{\hyperlink{class_mesh_ad6a041191ed55c693254e945ce2869ff}{$\sim$\+Mesh}} ()
 \item 
+virtual std\+::string \mbox{\hyperlink{class_mesh_ac9a0bc76a4e34c3985cbc4c20692c7df}{Get\+Mesh}} ()=0
+\item 
+virtual \mbox{\hyperlink{class_mesh_ad6a041191ed55c693254e945ce2869ff}{$\sim$\+Mesh}} ()
+\item 
 virtual std\+::string \mbox{\hyperlink{class_mesh_aa131fe1c2586fe60988155db77c57272}{get\+Name}} ()=0
+\item 
+virtual \mbox{\hyperlink{class_mesh}{Mesh}} $\ast$ \mbox{\hyperlink{class_mesh_a11928acab4066671d10e9e531ad96fb6}{Clone}} ()=0
+\item 
+virtual std\+::string \mbox{\hyperlink{class_mesh_a0d34fc4317a5e3bc2437b610141b9109}{Print\+Mesh\+Type}} ()=0
+\item 
+virtual std\+::string \mbox{\hyperlink{class_mesh_aa413c0ccbc081aa50a2946e1c6930b0c}{Get\+Color}} ()=0
 \end{DoxyCompactItemize}
 
 
@@ -37,12 +47,48 @@ virtual std\+::string \mbox{\hyperlink{class_mesh_aa131fe1c2586fe60988155db77c57
 \mbox{\Hypertarget{class_mesh_ad6a041191ed55c693254e945ce2869ff}\label{class_mesh_ad6a041191ed55c693254e945ce2869ff}} 
 \index{Mesh@{Mesh}!````~Mesh@{$\sim$Mesh}}
 \index{````~Mesh@{$\sim$Mesh}!Mesh@{Mesh}}
-\subsubsection{\texorpdfstring{$\sim$Mesh()}{~Mesh()}}
+\subsubsection{\texorpdfstring{$\sim$Mesh()}{~Mesh()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily virtual Mesh\+::$\sim$\+Mesh (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+\mbox{\Hypertarget{class_mesh_ad6a041191ed55c693254e945ce2869ff}\label{class_mesh_ad6a041191ed55c693254e945ce2869ff}} 
+\index{Mesh@{Mesh}!````~Mesh@{$\sim$Mesh}}
+\index{````~Mesh@{$\sim$Mesh}!Mesh@{Mesh}}
+\subsubsection{\texorpdfstring{$\sim$Mesh()}{~Mesh()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
 {\footnotesize\ttfamily virtual Mesh\+::$\sim$\+Mesh (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
 
 
 
 \subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_mesh_a11928acab4066671d10e9e531ad96fb6}\label{class_mesh_a11928acab4066671d10e9e531ad96fb6}} 
+\index{Mesh@{Mesh}!Clone@{Clone}}
+\index{Clone@{Clone}!Mesh@{Mesh}}
+\subsubsection{\texorpdfstring{Clone()}{Clone()}}
+{\footnotesize\ttfamily virtual \mbox{\hyperlink{class_mesh}{Mesh}}$\ast$ Mesh\+::\+Clone (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Implemented in \mbox{\hyperlink{class_cylinder_mesh_ad9e278dd523b06090b4e64f70a262575}{Cylinder\+Mesh}}, and \mbox{\hyperlink{class_sphere_mesh_a5dfa031b4cdd31a81154221c882a5dfa}{Sphere\+Mesh}}.
+
+\mbox{\Hypertarget{class_mesh_aa413c0ccbc081aa50a2946e1c6930b0c}\label{class_mesh_aa413c0ccbc081aa50a2946e1c6930b0c}} 
+\index{Mesh@{Mesh}!GetColor@{GetColor}}
+\index{GetColor@{GetColor}!Mesh@{Mesh}}
+\subsubsection{\texorpdfstring{GetColor()}{GetColor()}}
+{\footnotesize\ttfamily virtual std\+::string Mesh\+::\+Get\+Color (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Implemented in \mbox{\hyperlink{class_cylinder_mesh_a7415f90e56862321e09bcf6088a335a0}{Cylinder\+Mesh}}, and \mbox{\hyperlink{class_sphere_mesh_a1c490b89552f51b7960dc760ac09edf8}{Sphere\+Mesh}}.
+
+\mbox{\Hypertarget{class_mesh_ac9a0bc76a4e34c3985cbc4c20692c7df}\label{class_mesh_ac9a0bc76a4e34c3985cbc4c20692c7df}} 
+\index{Mesh@{Mesh}!GetMesh@{GetMesh}}
+\index{GetMesh@{GetMesh}!Mesh@{Mesh}}
+\subsubsection{\texorpdfstring{GetMesh()}{GetMesh()}}
+{\footnotesize\ttfamily virtual std\+::string Mesh\+::\+Get\+Mesh (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Implemented in \mbox{\hyperlink{class_cylinder_adada3adc010fbd6530969b3f7845c727}{Cylinder}}, and \mbox{\hyperlink{class_sphere_afd7c86e5319c93163781df0e44cbfd49}{Sphere}}.
+
 \mbox{\Hypertarget{class_mesh_aa131fe1c2586fe60988155db77c57272}\label{class_mesh_aa131fe1c2586fe60988155db77c57272}} 
 \index{Mesh@{Mesh}!getName@{getName}}
 \index{getName@{getName}!Mesh@{Mesh}}
@@ -53,8 +99,18 @@ virtual std\+::string \mbox{\hyperlink{class_mesh_aa131fe1c2586fe60988155db77c57
 
 Implemented in \mbox{\hyperlink{class_cylinder_afdb7f76b3f02471d638c36127395d181}{Cylinder}}, \mbox{\hyperlink{class_sphere_a173e667086ecd8b9d972e1d6f9885d9d}{Sphere}}, \mbox{\hyperlink{class_box_ac8792393d053c6cac65a36e5c1f27f15}{Box}}, and \mbox{\hyperlink{class_cone_a9581010134e3d1fe079fe5cce1933786}{Cone}}.
 
+\mbox{\Hypertarget{class_mesh_a0d34fc4317a5e3bc2437b610141b9109}\label{class_mesh_a0d34fc4317a5e3bc2437b610141b9109}} 
+\index{Mesh@{Mesh}!PrintMeshType@{PrintMeshType}}
+\index{PrintMeshType@{PrintMeshType}!Mesh@{Mesh}}
+\subsubsection{\texorpdfstring{PrintMeshType()}{PrintMeshType()}}
+{\footnotesize\ttfamily virtual std\+::string Mesh\+::\+Print\+Mesh\+Type (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Implemented in \mbox{\hyperlink{class_cylinder_mesh_aa5edae04a31b3ccab1e051eba25781a7}{Cylinder\+Mesh}}, and \mbox{\hyperlink{class_sphere_mesh_ad40fa08f33e72acf0410c2ce6099ca4c}{Sphere\+Mesh}}.
+
 
 
 The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
 \item 
-\mbox{\hyperlink{_mesh_8h}{Mesh.\+h}}\end{DoxyCompactItemize}
+\mbox{\hyperlink{_abstract_factory_2_abstract_factory_2common_2_mesh_8h}{Abstract\+Factory/\+Abstract\+Factory/common/\+Mesh.\+h}}\end{DoxyCompactItemize}

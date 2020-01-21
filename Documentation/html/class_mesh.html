@@ -69,17 +69,19 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="_mesh_8h_source.html">Mesh.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="_abstract_factory_2_abstract_factory_2common_2_mesh_8h_source.html">Mesh.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for Mesh:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_mesh__inherit__graph.png" border="0" usemap="#_mesh_inherit__map" alt="Inheritance graph"/></div>
 <map name="_mesh_inherit__map" id="_mesh_inherit__map">
-<area shape="rect"  title=" " alt="" coords="184,5,279,97"/>
-<area shape="rect"  href="class_box.html" title=" " alt="" coords="5,145,100,252"/>
-<area shape="rect"  href="class_cone.html" title=" " alt="" coords="124,145,219,252"/>
-<area shape="rect"  href="class_cylinder.html" title=" " alt="" coords="243,145,340,252"/>
-<area shape="rect"  href="class_sphere.html" title=" " alt="" coords="364,145,459,252"/>
+<area shape="rect"  title=" " alt="" coords="317,5,447,171"/>
+<area shape="rect"  href="class_box.html" title=" " alt="" coords="5,299,100,406"/>
+<area shape="rect"  href="class_cone.html" title=" " alt="" coords="124,299,219,406"/>
+<area shape="rect"  href="class_cylinder.html" title=" " alt="" coords="243,219,369,487"/>
+<area shape="rect"  href="class_cylinder_mesh.html" title=" " alt="" coords="393,277,523,428"/>
+<area shape="rect"  href="class_sphere.html" title=" " alt="" coords="547,277,641,428"/>
+<area shape="rect"  href="class_sphere_mesh.html" title=" " alt="" coords="665,277,795,428"/>
 </map>
 </div>
 <div class="dynheader">
@@ -87,7 +89,7 @@ Collaboration diagram for Mesh:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_mesh__coll__graph.png" border="0" usemap="#_mesh_coll__map" alt="Collaboration graph"/></div>
 <map name="_mesh_coll__map" id="_mesh_coll__map">
-<area shape="rect"  title=" " alt="" coords="5,5,100,97"/>
+<area shape="rect"  title=" " alt="" coords="5,5,135,171"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -95,12 +97,47 @@ Collaboration diagram for Mesh:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ad6a041191ed55c693254e945ce2869ff"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mesh.html#ad6a041191ed55c693254e945ce2869ff">~Mesh</a> ()</td></tr>
 <tr class="separator:ad6a041191ed55c693254e945ce2869ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9a0bc76a4e34c3985cbc4c20692c7df"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mesh.html#ac9a0bc76a4e34c3985cbc4c20692c7df">GetMesh</a> ()=0</td></tr>
+<tr class="separator:ac9a0bc76a4e34c3985cbc4c20692c7df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6a041191ed55c693254e945ce2869ff"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mesh.html#ad6a041191ed55c693254e945ce2869ff">~Mesh</a> ()</td></tr>
+<tr class="separator:ad6a041191ed55c693254e945ce2869ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa131fe1c2586fe60988155db77c57272"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mesh.html#aa131fe1c2586fe60988155db77c57272">getName</a> ()=0</td></tr>
 <tr class="separator:aa131fe1c2586fe60988155db77c57272"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11928acab4066671d10e9e531ad96fb6"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_mesh.html">Mesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mesh.html#a11928acab4066671d10e9e531ad96fb6">Clone</a> ()=0</td></tr>
+<tr class="separator:a11928acab4066671d10e9e531ad96fb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d34fc4317a5e3bc2437b610141b9109"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mesh.html#a0d34fc4317a5e3bc2437b610141b9109">PrintMeshType</a> ()=0</td></tr>
+<tr class="separator:a0d34fc4317a5e3bc2437b610141b9109"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa413c0ccbc081aa50a2946e1c6930b0c"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mesh.html#aa413c0ccbc081aa50a2946e1c6930b0c">GetColor</a> ()=0</td></tr>
+<tr class="separator:aa413c0ccbc081aa50a2946e1c6930b0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ad6a041191ed55c693254e945ce2869ff"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad6a041191ed55c693254e945ce2869ff">&#9670;&nbsp;</a></span>~Mesh()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad6a041191ed55c693254e945ce2869ff">&#9670;&nbsp;</a></span>~Mesh() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual Mesh::~Mesh </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad6a041191ed55c693254e945ce2869ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad6a041191ed55c693254e945ce2869ff">&#9670;&nbsp;</a></span>~Mesh() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -125,6 +162,87 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a11928acab4066671d10e9e531ad96fb6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a11928acab4066671d10e9e531ad96fb6">&#9670;&nbsp;</a></span>Clone()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="class_mesh.html">Mesh</a>* Mesh::Clone </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="class_cylinder_mesh.html#ad9e278dd523b06090b4e64f70a262575">CylinderMesh</a>, and <a class="el" href="class_sphere_mesh.html#a5dfa031b4cdd31a81154221c882a5dfa">SphereMesh</a>.</p>
+
+</div>
+</div>
+<a id="aa413c0ccbc081aa50a2946e1c6930b0c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa413c0ccbc081aa50a2946e1c6930b0c">&#9670;&nbsp;</a></span>GetColor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual std::string Mesh::GetColor </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="class_cylinder_mesh.html#a7415f90e56862321e09bcf6088a335a0">CylinderMesh</a>, and <a class="el" href="class_sphere_mesh.html#a1c490b89552f51b7960dc760ac09edf8">SphereMesh</a>.</p>
+
+</div>
+</div>
+<a id="ac9a0bc76a4e34c3985cbc4c20692c7df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9a0bc76a4e34c3985cbc4c20692c7df">&#9670;&nbsp;</a></span>GetMesh()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual std::string Mesh::GetMesh </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="class_cylinder.html#adada3adc010fbd6530969b3f7845c727">Cylinder</a>, and <a class="el" href="class_sphere.html#afd7c86e5319c93163781df0e44cbfd49">Sphere</a>.</p>
+
+</div>
+</div>
 <a id="aa131fe1c2586fe60988155db77c57272"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa131fe1c2586fe60988155db77c57272">&#9670;&nbsp;</a></span>getName()</h2>
 
@@ -152,8 +270,35 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a0d34fc4317a5e3bc2437b610141b9109"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d34fc4317a5e3bc2437b610141b9109">&#9670;&nbsp;</a></span>PrintMeshType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual std::string Mesh::PrintMeshType </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="class_cylinder_mesh.html#aa5edae04a31b3ccab1e051eba25781a7">CylinderMesh</a>, and <a class="el" href="class_sphere_mesh.html#ad40fa08f33e72acf0410c2ce6099ca4c">SphereMesh</a>.</p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="_mesh_8h_source.html">Mesh.h</a></li>
+<li><a class="el" href="_abstract_factory_2_abstract_factory_2common_2_mesh_8h_source.html">AbstractFactory/AbstractFactory/common/Mesh.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

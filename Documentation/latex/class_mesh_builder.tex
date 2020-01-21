@@ -16,7 +16,7 @@ Inheritance diagram for Mesh\+Builder\+:
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=208pt]{class_mesh_builder__inherit__graph}
+\includegraphics[width=350pt]{class_mesh_builder__inherit__graph}
 \end{center}
 \end{figure}
 
@@ -26,7 +26,7 @@ Collaboration diagram for Mesh\+Builder\+:
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=208pt]{class_mesh_builder__coll__graph}
+\includegraphics[height=550pt]{class_mesh_builder__coll__graph}
 \end{center}
 \end{figure}
 \subsection*{Public Member Functions}
@@ -36,7 +36,35 @@ Collaboration diagram for Mesh\+Builder\+:
 \item 
 \mbox{\hyperlink{class_mesh_builder_ac409c889085089b34c5297cf7150f49d}{$\sim$\+Mesh\+Builder}} ()
 \item 
-std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{class_mesh}{Mesh}} $>$ \mbox{\hyperlink{class_mesh_builder_a51d89fe601df06e63112c70416ac03dc}{Create\+Mesh}} (\mbox{\hyperlink{_mesh_builder_interface_8h_ad6436347ddb93aed826a19081b53dd61}{M\+E\+S\+H\+T\+Y\+PE}})
+bool \mbox{\hyperlink{class_mesh_builder_a9c48199d6ecab1f9c102e48d1b474f5a}{Generate\+Mesh}} (\mbox{\hyperlink{_abstract_factory_2_abstract_factory_2builder_2_mesh_builder_8h_ad6436347ddb93aed826a19081b53dd61}{M\+E\+S\+H\+T\+Y\+PE}})
+\item 
+virtual \mbox{\hyperlink{class_mesh_builder_a0ca7377cf981c1c2996f2f6dbc588352}{$\sim$\+Mesh\+Builder}} ()
+\item 
+\mbox{\hyperlink{class_cylinder}{Cylinder}} \mbox{\hyperlink{class_mesh_builder_a2db99e42ca33437243c6875a85417ef0}{Get\+Mesh}} ()
+\item 
+virtual void \mbox{\hyperlink{class_mesh_builder_a205a6daf8b50d88eebe1df434b7bf0c4}{build\+Color}} ()=0
+\item 
+virtual void \mbox{\hyperlink{class_mesh_builder_a5c69dabcf61fa1e87aa8b20fe2f54fe7}{build\+Cap}} ()=0
+\item 
+virtual void \mbox{\hyperlink{class_mesh_builder_af715a8510c99c7925bd8e6f0b6b182d7}{build\+Dimensions}} ()=0
+\item 
+\mbox{\hyperlink{class_mesh_builder_a13fe22fd14a85f789dc9d7d4a8d2419d}{Mesh\+Builder}} ()
+\item 
+\mbox{\hyperlink{class_mesh_builder_ac409c889085089b34c5297cf7150f49d}{$\sim$\+Mesh\+Builder}} ()
+\item 
+std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{class_mesh}{Mesh}} $>$ \mbox{\hyperlink{class_mesh_builder_a51d89fe601df06e63112c70416ac03dc}{Create\+Mesh}} (\mbox{\hyperlink{_abstract_factory_2_abstract_factory_2builder_2_mesh_builder_8h_ad6436347ddb93aed826a19081b53dd61}{M\+E\+S\+H\+T\+Y\+PE}})
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{class_mesh}{Mesh}} $>$ \mbox{\hyperlink{class_mesh_builder_ad15d79cf6c25b3381e4628f77adc099a}{mesh\+Ptr}}
+\item 
+std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{class_mesh_property}{Mesh\+Property}} $>$ \mbox{\hyperlink{class_mesh_builder_a0c1493d189b81576c0740cc9a9373dc1}{mesh\+Property\+Ptr}}
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_cylinder}{Cylinder}} \mbox{\hyperlink{class_mesh_builder_aba5364c12c71c36af6a83b6c3853af5b}{cylinder}}
 \end{DoxyCompactItemize}
 
 
@@ -47,31 +75,112 @@ Provides the class for creating different mesh objects based on the M\+E\+S\+H\+
 \mbox{\Hypertarget{class_mesh_builder_a13fe22fd14a85f789dc9d7d4a8d2419d}\label{class_mesh_builder_a13fe22fd14a85f789dc9d7d4a8d2419d}} 
 \index{MeshBuilder@{MeshBuilder}!MeshBuilder@{MeshBuilder}}
 \index{MeshBuilder@{MeshBuilder}!MeshBuilder@{MeshBuilder}}
-\subsubsection{\texorpdfstring{MeshBuilder()}{MeshBuilder()}}
+\subsubsection{\texorpdfstring{MeshBuilder()}{MeshBuilder()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
 {\footnotesize\ttfamily Mesh\+Builder\+::\+Mesh\+Builder (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
 
 \mbox{\Hypertarget{class_mesh_builder_ac409c889085089b34c5297cf7150f49d}\label{class_mesh_builder_ac409c889085089b34c5297cf7150f49d}} 
 \index{MeshBuilder@{MeshBuilder}!````~MeshBuilder@{$\sim$MeshBuilder}}
 \index{````~MeshBuilder@{$\sim$MeshBuilder}!MeshBuilder@{MeshBuilder}}
-\subsubsection{\texorpdfstring{$\sim$MeshBuilder()}{~MeshBuilder()}}
+\subsubsection{\texorpdfstring{$\sim$MeshBuilder()}{~MeshBuilder()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily Mesh\+Builder\+::$\sim$\+Mesh\+Builder (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_mesh_builder_a0ca7377cf981c1c2996f2f6dbc588352}\label{class_mesh_builder_a0ca7377cf981c1c2996f2f6dbc588352}} 
+\index{MeshBuilder@{MeshBuilder}!````~MeshBuilder@{$\sim$MeshBuilder}}
+\index{````~MeshBuilder@{$\sim$MeshBuilder}!MeshBuilder@{MeshBuilder}}
+\subsubsection{\texorpdfstring{$\sim$MeshBuilder()}{~MeshBuilder()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily virtual Mesh\+Builder\+::$\sim$\+Mesh\+Builder (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+\mbox{\Hypertarget{class_mesh_builder_a13fe22fd14a85f789dc9d7d4a8d2419d}\label{class_mesh_builder_a13fe22fd14a85f789dc9d7d4a8d2419d}} 
+\index{MeshBuilder@{MeshBuilder}!MeshBuilder@{MeshBuilder}}
+\index{MeshBuilder@{MeshBuilder}!MeshBuilder@{MeshBuilder}}
+\subsubsection{\texorpdfstring{MeshBuilder()}{MeshBuilder()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Mesh\+Builder\+::\+Mesh\+Builder (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_mesh_builder_ac409c889085089b34c5297cf7150f49d}\label{class_mesh_builder_ac409c889085089b34c5297cf7150f49d}} 
+\index{MeshBuilder@{MeshBuilder}!````~MeshBuilder@{$\sim$MeshBuilder}}
+\index{````~MeshBuilder@{$\sim$MeshBuilder}!MeshBuilder@{MeshBuilder}}
+\subsubsection{\texorpdfstring{$\sim$MeshBuilder()}{~MeshBuilder()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
 {\footnotesize\ttfamily Mesh\+Builder\+::$\sim$\+Mesh\+Builder (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
 
 
 
 \subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_mesh_builder_a5c69dabcf61fa1e87aa8b20fe2f54fe7}\label{class_mesh_builder_a5c69dabcf61fa1e87aa8b20fe2f54fe7}} 
+\index{MeshBuilder@{MeshBuilder}!buildCap@{buildCap}}
+\index{buildCap@{buildCap}!MeshBuilder@{MeshBuilder}}
+\subsubsection{\texorpdfstring{buildCap()}{buildCap()}}
+{\footnotesize\ttfamily virtual void Mesh\+Builder\+::build\+Cap (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Implemented in \mbox{\hyperlink{class_closed_can_mesh_builder_a6fd7852b01e6afc04346f80a5f2f4459}{Closed\+Can\+Mesh\+Builder}}, and \mbox{\hyperlink{class_tube_mesh_builder_a7763461e42bd9db6b7d69eb5c7ad4e05}{Tube\+Mesh\+Builder}}.
+
+\mbox{\Hypertarget{class_mesh_builder_a205a6daf8b50d88eebe1df434b7bf0c4}\label{class_mesh_builder_a205a6daf8b50d88eebe1df434b7bf0c4}} 
+\index{MeshBuilder@{MeshBuilder}!buildColor@{buildColor}}
+\index{buildColor@{buildColor}!MeshBuilder@{MeshBuilder}}
+\subsubsection{\texorpdfstring{buildColor()}{buildColor()}}
+{\footnotesize\ttfamily virtual void Mesh\+Builder\+::build\+Color (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Implemented in \mbox{\hyperlink{class_closed_can_mesh_builder_ae99058cb912a5d9e1f34e49241f4c8c7}{Closed\+Can\+Mesh\+Builder}}, and \mbox{\hyperlink{class_tube_mesh_builder_afcdbd454d1ba0c3eed4efb5120783e08}{Tube\+Mesh\+Builder}}.
+
+\mbox{\Hypertarget{class_mesh_builder_af715a8510c99c7925bd8e6f0b6b182d7}\label{class_mesh_builder_af715a8510c99c7925bd8e6f0b6b182d7}} 
+\index{MeshBuilder@{MeshBuilder}!buildDimensions@{buildDimensions}}
+\index{buildDimensions@{buildDimensions}!MeshBuilder@{MeshBuilder}}
+\subsubsection{\texorpdfstring{buildDimensions()}{buildDimensions()}}
+{\footnotesize\ttfamily virtual void Mesh\+Builder\+::build\+Dimensions (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Implemented in \mbox{\hyperlink{class_closed_can_mesh_builder_a5d9a174577e0957f768300b32fd367cf}{Closed\+Can\+Mesh\+Builder}}, and \mbox{\hyperlink{class_tube_mesh_builder_a16c5008efeefa80378f86b2a8e116af4}{Tube\+Mesh\+Builder}}.
+
 \mbox{\Hypertarget{class_mesh_builder_a51d89fe601df06e63112c70416ac03dc}\label{class_mesh_builder_a51d89fe601df06e63112c70416ac03dc}} 
 \index{MeshBuilder@{MeshBuilder}!CreateMesh@{CreateMesh}}
 \index{CreateMesh@{CreateMesh}!MeshBuilder@{MeshBuilder}}
 \subsubsection{\texorpdfstring{CreateMesh()}{CreateMesh()}}
-{\footnotesize\ttfamily std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{class_mesh}{Mesh}} $>$ Mesh\+Builder\+::\+Create\+Mesh (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{_mesh_builder_interface_8h_ad6436347ddb93aed826a19081b53dd61}{M\+E\+S\+H\+T\+Y\+PE}}}]{type }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+{\footnotesize\ttfamily std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{class_mesh}{Mesh}} $>$ Mesh\+Builder\+::\+Create\+Mesh (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{_abstract_factory_2_abstract_factory_2builder_2_mesh_builder_8h_ad6436347ddb93aed826a19081b53dd61}{M\+E\+S\+H\+T\+Y\+PE}}}]{type }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
 
 
 
 Implements \mbox{\hyperlink{class_mesh_builder_interface_a2d9b31466ef198b2029438970af81323}{Mesh\+Builder\+Interface}}.
 
+\mbox{\Hypertarget{class_mesh_builder_a9c48199d6ecab1f9c102e48d1b474f5a}\label{class_mesh_builder_a9c48199d6ecab1f9c102e48d1b474f5a}} 
+\index{MeshBuilder@{MeshBuilder}!GenerateMesh@{GenerateMesh}}
+\index{GenerateMesh@{GenerateMesh}!MeshBuilder@{MeshBuilder}}
+\subsubsection{\texorpdfstring{GenerateMesh()}{GenerateMesh()}}
+{\footnotesize\ttfamily bool Mesh\+Builder\+::\+Generate\+Mesh (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{_abstract_factory_2_abstract_factory_2builder_2_mesh_builder_8h_ad6436347ddb93aed826a19081b53dd61}{M\+E\+S\+H\+T\+Y\+PE}}}]{type }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_mesh_builder_a2db99e42ca33437243c6875a85417ef0}\label{class_mesh_builder_a2db99e42ca33437243c6875a85417ef0}} 
+\index{MeshBuilder@{MeshBuilder}!GetMesh@{GetMesh}}
+\index{GetMesh@{GetMesh}!MeshBuilder@{MeshBuilder}}
+\subsubsection{\texorpdfstring{GetMesh()}{GetMesh()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_cylinder}{Cylinder}} Mesh\+Builder\+::\+Get\+Mesh (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{class_mesh_builder_aba5364c12c71c36af6a83b6c3853af5b}\label{class_mesh_builder_aba5364c12c71c36af6a83b6c3853af5b}} 
+\index{MeshBuilder@{MeshBuilder}!cylinder@{cylinder}}
+\index{cylinder@{cylinder}!MeshBuilder@{MeshBuilder}}
+\subsubsection{\texorpdfstring{cylinder}{cylinder}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_cylinder}{Cylinder}} Mesh\+Builder\+::cylinder\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{class_mesh_builder_a0c1493d189b81576c0740cc9a9373dc1}\label{class_mesh_builder_a0c1493d189b81576c0740cc9a9373dc1}} 
+\index{MeshBuilder@{MeshBuilder}!meshPropertyPtr@{meshPropertyPtr}}
+\index{meshPropertyPtr@{meshPropertyPtr}!MeshBuilder@{MeshBuilder}}
+\subsubsection{\texorpdfstring{meshPropertyPtr}{meshPropertyPtr}}
+{\footnotesize\ttfamily std\+::unique\+\_\+ptr$<$\mbox{\hyperlink{class_mesh_property}{Mesh\+Property}}$>$ Mesh\+Builder\+::mesh\+Property\+Ptr}
+
+\mbox{\Hypertarget{class_mesh_builder_ad15d79cf6c25b3381e4628f77adc099a}\label{class_mesh_builder_ad15d79cf6c25b3381e4628f77adc099a}} 
+\index{MeshBuilder@{MeshBuilder}!meshPtr@{meshPtr}}
+\index{meshPtr@{meshPtr}!MeshBuilder@{MeshBuilder}}
+\subsubsection{\texorpdfstring{meshPtr}{meshPtr}}
+{\footnotesize\ttfamily std\+::unique\+\_\+ptr$<$\mbox{\hyperlink{class_mesh}{Mesh}}$>$ Mesh\+Builder\+::mesh\+Ptr}
+
 
 
 The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
 \item 
-\mbox{\hyperlink{_mesh_builder_8h}{Mesh\+Builder.\+h}}\item 
-\mbox{\hyperlink{_mesh_builder_8cpp}{Mesh\+Builder.\+cpp}}\end{DoxyCompactItemize}
+\mbox{\hyperlink{_abstract_factory_2_abstract_factory_2builder_2_mesh_builder_8h}{Abstract\+Factory/\+Abstract\+Factory/builder/\+Mesh\+Builder.\+h}}\item 
+\mbox{\hyperlink{_abstract_factory_2_abstract_factory_2builder_2_mesh_builder_8cpp}{Abstract\+Factory/\+Abstract\+Factory/builder/\+Mesh\+Builder.\+cpp}}\end{DoxyCompactItemize}

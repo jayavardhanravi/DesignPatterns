@@ -1,7 +1,9 @@
 <map id="Mesh" name="Mesh">
-<area shape="rect" id="node1" title=" " alt="" coords="184,5,279,97"/>
-<area shape="rect" id="node2" href="$class_box.html" title=" " alt="" coords="5,145,100,252"/>
-<area shape="rect" id="node3" href="$class_cone.html" title=" " alt="" coords="124,145,219,252"/>
-<area shape="rect" id="node4" href="$class_cylinder.html" title=" " alt="" coords="243,145,340,252"/>
-<area shape="rect" id="node5" href="$class_sphere.html" title=" " alt="" coords="364,145,459,252"/>
+<area shape="rect" id="node1" title=" " alt="" coords="317,5,447,171"/>
+<area shape="rect" id="node2" href="$class_box.html" title=" " alt="" coords="5,299,100,406"/>
+<area shape="rect" id="node3" href="$class_cone.html" title=" " alt="" coords="124,299,219,406"/>
+<area shape="rect" id="node4" href="$class_cylinder.html" title=" " alt="" coords="243,219,369,487"/>
+<area shape="rect" id="node5" href="$class_cylinder_mesh.html" title=" " alt="" coords="393,277,523,428"/>
+<area shape="rect" id="node6" href="$class_sphere.html" title=" " alt="" coords="547,277,641,428"/>
+<area shape="rect" id="node7" href="$class_sphere_mesh.html" title=" " alt="" coords="665,277,795,428"/>
 </map>
