@@ -15,34 +15,8 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ClassAdapter.cpp">
+    <ClCompile Include="DesignPatterns.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="DataAcquisition.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="ExternalService.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="ExternalServiceDataAdapter.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Data.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="DataAcquisition.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="ExternalService.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="ExternalServiceDataAdapter.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="ClassDiagram.cd" />
   </ItemGroup>
 </Project>

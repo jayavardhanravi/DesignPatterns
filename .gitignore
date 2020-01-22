@@ -2,3 +2,6 @@
 
 **/Documentation/Doxyfile
 **/.vs
+**/Debug
+**/Release
+**/x64
