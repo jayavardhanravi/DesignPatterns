@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Data">
+    <Position X="0.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Data.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataAcquisition">
+    <Position X="5.5" Y="3" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAEACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>DataAcquisition.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExternalService">
+    <Position X="3.25" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAgAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>ExternalService.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExternalServiceDataAdapter">
+    <Position X="1.5" Y="3.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>ExternalServiceDataAdapter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="TYPES">
+    <Position X="5.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Data.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
