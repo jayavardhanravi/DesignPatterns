@@ -15,7 +15,15 @@ Collection of various design patterns with example implementation in C++. Creati
 | [Singleton] | Build Class with single instance|
 
 #### Structural Design Patterns
--
+| Pattern Name | Description  |
+| :---   | :--- |
+| [Adapter] | Link Objects with incompatable interfaces/classes |
+| [Bridge] | |
+| [Composition] | |
+| [Decorator] | |
+| [Facade] | |
+| [Flyweight] | |
+| [Proxy] | |
 
 #### Behavioral Design Patterns
 -
@@ -32,3 +40,10 @@ Collection of various design patterns with example implementation in C++. Creati
 [Builder]: https://github.com/jayavardhanravi/DesignPatterns/tree/master/Builder
 [Prototype]: https://github.com/jayavardhanravi/DesignPatterns/tree/master/Prototype
 [Singleton]: https://github.com/jayavardhanravi/DesignPatterns/tree/master/Singleton
+[Adapter]: https://github.com/jayavardhanravi/DesignPatterns/tree/master/Adapter
+[Bridge]: https://github.com/jayavardhanravi/DesignPatterns/tree/master/Bridge
+[Composition]: https://github.com/jayavardhanravi/DesignPatterns/tree/master/Composition
+[Decorator]: https://github.com/jayavardhanravi/DesignPatterns/tree/master/Decorator
+[Facade]: https://github.com/jayavardhanravi/DesignPatterns/tree/master/Facade
+[Flyweight]: https://github.com/jayavardhanravi/DesignPatterns/tree/master/Flyweight
+[Proxy]: https://github.com/jayavardhanravi/DesignPatterns/tree/master/Proxy
