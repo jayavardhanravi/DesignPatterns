@@ -1,6 +1,6 @@
 #pragma once
 
-#include "../common/CylinderMesh.h";
+#include "../common/CylinderMesh.h"
 #include "../common/SphereMesh.h"
 #include <map>
 
