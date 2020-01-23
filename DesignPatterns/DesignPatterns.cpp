@@ -2,5 +2,5 @@
 
 int main()
 {
-    std::cout << "Hello World!\n"; 
+    std::cout << "Design Patterns in C++\n"; 
 }

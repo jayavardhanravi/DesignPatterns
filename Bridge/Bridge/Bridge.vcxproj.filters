@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\ImplementationModule">
+      <UniqueIdentifier>{48dc8cc6-e35a-4f4f-8d13-1934dac2febd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\AbstractionModule">
+      <UniqueIdentifier>{0cc75d94-8bfe-4eb7-a8c6-1d5ba7349dc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ImplementationModule">
+      <UniqueIdentifier>{dda523ea-9fda-48c8-b109-f6a1575403b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AbstractionModule">
+      <UniqueIdentifier>{c510b4ab-b01c-4e98-bacf-f2c123fa8cee}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Bridge.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ImplementationModule\ColorProperty.cpp">
+      <Filter>Source Files\ImplementationModule</Filter>
+    </ClCompile>
+    <ClCompile Include="ImplementationModule\TextureProperty.cpp">
+      <Filter>Source Files\ImplementationModule</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractionModule\CylinderMesh.cpp">
+      <Filter>Source Files\AbstractionModule</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractionModule\SphereMesh.cpp">
+      <Filter>Source Files\AbstractionModule</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ImplementationModule\MeshProperty.h">
+      <Filter>Header Files\ImplementationModule</Filter>
+    </ClInclude>
+    <ClInclude Include="ImplementationModule\ColorProperty.h">
+      <Filter>Header Files\ImplementationModule</Filter>
+    </ClInclude>
+    <ClInclude Include="ImplementationModule\TextureProperty.h">
+      <Filter>Header Files\ImplementationModule</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractionModule\Mesh.h">
+      <Filter>Header Files\AbstractionModule</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractionModule\CylinderMesh.h">
+      <Filter>Header Files\AbstractionModule</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractionModule\SphereMesh.h">
+      <Filter>Header Files\AbstractionModule</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
