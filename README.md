@@ -1,5 +1,5 @@
 ## Design Patterns using C++
-<img src="https://ci.appveyor.com/api/projects/status/github/DesignPatterns?svg=true" alt="Build Status">
+[![Build status](https://ci.appveyor.com/api/projects/status/ift8fadhnt3snpah?svg=true)](https://ci.appveyor.com/project/jayavardhanravi/designpatterns)
 
 Collection of various design patterns with example implementation in C++. Creational, Structural and Behavioral design patterns have been implemented. This also includes some of the commonly used Idiom in C++ programming. This is just to demonstrate the usage of the design patterns. 
 
