@@ -22,7 +22,7 @@ Collection of various design patterns with example implementation in C++. Creati
 | :---   | :--- |
 | [Adapter] | Link Objects with incompatable interfaces/classes |
 | [Bridge] | Decouples Abstraction and implementation |
-| [Composition] | |
+| [Composition] | Build Object into tree like structures |
 | [Decorator] | |
 | [Facade] | |
 | [Flyweight] | |
