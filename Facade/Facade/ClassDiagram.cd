@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MeshLibraryFacade">
+    <Position X="5.25" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAABAAAAAAAAAAABAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>MeshLibraryFacade.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CubeMesh">
+    <Position X="0.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAgAAAAA=</HashCode>
+      <FileName>ExternalLibrary\CubeMesh.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mesh">
+    <Position X="1.75" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAACEAAAAAAAAAkAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ExternalLibrary\Mesh.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VoxelMesh">
+    <Position X="3" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AABAAAEAACAAAAAAAAAAkAAAAAAAAAAAIAAAABAAAAA=</HashCode>
+      <FileName>ExternalLibrary\VoxelMesh.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
