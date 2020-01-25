@@ -23,6 +23,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bridge", "Bridge\Bridge\Bri
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Composite", "Composite\Composite\Composite.vcxproj", "{FD3CD237-C193-4992-AA7A-5882188F4F0D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Decorator", "Decorator\Decorator\Decorator.vcxproj", "{0F8B1669-8210-4828-938D-72281F8B01FC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -111,11 +113,19 @@ Global
 		{FD3CD237-C193-4992-AA7A-5882188F4F0D}.Release|x64.Build.0 = Release|x64
 		{FD3CD237-C193-4992-AA7A-5882188F4F0D}.Release|x86.ActiveCfg = Release|Win32
 		{FD3CD237-C193-4992-AA7A-5882188F4F0D}.Release|x86.Build.0 = Release|Win32
+		{0F8B1669-8210-4828-938D-72281F8B01FC}.Debug|x64.ActiveCfg = Debug|x64
+		{0F8B1669-8210-4828-938D-72281F8B01FC}.Debug|x64.Build.0 = Debug|x64
+		{0F8B1669-8210-4828-938D-72281F8B01FC}.Debug|x86.ActiveCfg = Debug|Win32
+		{0F8B1669-8210-4828-938D-72281F8B01FC}.Debug|x86.Build.0 = Debug|Win32
+		{0F8B1669-8210-4828-938D-72281F8B01FC}.Release|x64.ActiveCfg = Release|x64
+		{0F8B1669-8210-4828-938D-72281F8B01FC}.Release|x64.Build.0 = Release|x64
+		{0F8B1669-8210-4828-938D-72281F8B01FC}.Release|x86.ActiveCfg = Release|Win32
+		{0F8B1669-8210-4828-938D-72281F8B01FC}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {99239AA6-F158-4510-887E-04D6E4DEFAC1}
+		SolutionGuid = {62FD8EC7-53DE-4990-AE34-A0D2121428FD}
 	EndGlobalSection
 EndGlobal
