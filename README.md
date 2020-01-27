@@ -25,7 +25,7 @@ Collection of various design patterns with example implementation in C++. Creati
 | [Composition] | Build Object into tree like structures |
 | [Decorator] | Adding additional Features to existing objects dynamically |
 | [Facade] | For providing simple interface for complex libraries|
-| [Flyweight] | |
+| [Flyweight] | Sharing the common data between multiple objects |
 | [Proxy] | |
 
 #### Behavioral Design Patterns
