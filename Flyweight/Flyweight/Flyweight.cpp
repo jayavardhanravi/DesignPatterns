@@ -39,7 +39,7 @@
 int main()
 {
 	Sphere datapoint;
-	for (auto i = 0; i < 1000000; i++)
+	for (auto i = 0; i < 100000; i++)
 	{
 		if(i%2)
 			datapoint.AddDataPoint(rand() % 20, rand() % 50, rand() % 39);

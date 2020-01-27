@@ -52,7 +52,6 @@ void Sphere::PrintInfo()
 	{
 		std::cout << "TRANSFORMS : " << i->second->PrintInfo() << std::endl;
 	}
-
 }
 
 

@@ -10,8 +10,6 @@ public:
 	Sphere();
 	~Sphere();
 
-	std::unordered_map<std::string, std::unique_ptr<SphereTransform>> listOfDatapoints;
-
 	void AddDataPoint(double, double, double);
 	void AddCustomDataPoint(double, double, double);
 
@@ -19,6 +17,7 @@ public:
 
 private:
 	std::unordered_map<std::string, std::unique_ptr<SphereModel>> listOfModels;
+	std::unordered_map<std::string, std::unique_ptr<SphereTransform>> listOfDatapoints;
 	void InitializeModels();
 
 };
