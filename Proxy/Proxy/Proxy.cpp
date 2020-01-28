@@ -32,10 +32,16 @@
 */
 #include <iostream>
 
+#include "MeshBuilderProxy.h"
+
 /*!
 * @brief Main Function to test the implementations
 */
 int main()
 {
-    std::cout << "Hello World!\n"; 
+	MeshBuilderProxy proxyForMeshuilder;
+	std::cout << "Case 1: " << proxyForMeshuilder.CreateMesh(-56) << std::endl;
+	std::cout << "Case 2: " << proxyForMeshuilder.CreateMesh(1) << std::endl;
+	std::cout << "Case 3: " << proxyForMeshuilder.CreateMesh(3) << std::endl;
+	std::cout << "Case 4: " << proxyForMeshuilder.CreateMesh(10) << std::endl;
 }
