@@ -42,15 +42,16 @@ void Sphere::AddCustomDataPoint(double x, double y, double z)
 void Sphere::PrintInfo()
 {
 	// Print List of Models
-	for (std::unordered_map<std::string, std::unique_ptr<SphereModel>>::iterator i = listOfModels.begin(); i != listOfModels.end(); ++i)
+	//for (std::unordered_map<std::string, std::unique_ptr<SphereModel>>::iterator i = listOfModels.begin(); i != listOfModels.end(); ++i)
+	for(auto const &modelpair : listOfModels)
 	{
-		std::cout << "MODELS : " << i->second->PrintInfo() << std::endl;
+		std::cout << "MODELS : " << modelpair.second->PrintInfo() << std::endl;
 	}
 
 	// Print List of Transforms
-	for (std::unordered_map<std::string, std::unique_ptr<SphereTransform>>::iterator i = listOfDatapoints.begin(); i != listOfDatapoints.end(); ++i)
+	for (auto const &modelpair : listOfDatapoints)
 	{
-		std::cout << "TRANSFORMS : " << i->second->PrintInfo() << std::endl;
+		std::cout << "TRANSFORMS : " << modelpair.second->PrintInfo() << std::endl;
 	}
 }
 
