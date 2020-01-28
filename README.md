@@ -1,7 +1,6 @@
 ## Design Patterns using C++
 [![Build status](https://ci.appveyor.com/api/projects/status/ift8fadhnt3snpah?svg=true)](https://ci.appveyor.com/project/jayavardhanravi/designpatterns)
 ![Language](https://img.shields.io/badge/language-C++-Blue)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/b848347e5fe741d884cc302a2824a77a)](https://www.codacy.com/manual/jayavardhanravi/DesignPatterns?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=jayavardhanravi/DesignPatterns&amp;utm_campaign=Badge_Grade)
 ![License](https://img.shields.io/badge/license-BSD2Clause-Green)
 
 Collection of various design patterns with example implementation in C++. Creational, Structural and Behavioral design patterns have been implemented. This also includes some of the commonly used Idiom in C++ programming. This is just to demonstrate the usage of the design patterns. 
