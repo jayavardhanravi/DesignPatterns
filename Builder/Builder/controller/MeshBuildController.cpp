@@ -12,9 +12,12 @@ MeshBuildController::~MeshBuildController()
 
 void MeshBuildController::BuildMesh()
 {
-	builder->buildCap();
-	builder->buildColor();
-	builder->buildDimensions();
+	if (builder)
+	{
+		builder->buildCap();
+		builder->buildColor();
+		builder->buildDimensions();
+	}
 }
 
 void MeshBuildController::SetMesh(MeshBuilder *builderValue)
@@ -26,5 +29,8 @@ void MeshBuildController::SetMesh(MeshBuilder *builderValue)
 
 Cylinder MeshBuildController::GetMesh()
 {
-	return builder->GetMesh();
+	if (builder)
+		return builder->GetMesh();
+	else
+		return nullptr;
 }

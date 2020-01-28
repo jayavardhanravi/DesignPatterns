@@ -13,6 +13,6 @@ public:
 	Cylinder GetMesh();
 
 private:
-	MeshBuilder *builder;
+	MeshBuilder *builder = nullptr;
 };
 
