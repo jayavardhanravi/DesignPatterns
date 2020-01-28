@@ -29,8 +29,5 @@ void MeshBuildController::SetMesh(MeshBuilder *builderValue)
 
 Cylinder MeshBuildController::GetMesh()
 {
-	if (builder)
-		return builder->GetMesh();
-	else
-		return nullptr;
+	return builder->GetMesh();
 }
