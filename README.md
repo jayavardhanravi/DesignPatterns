@@ -91,3 +91,14 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 [Facade]: https://github.com/jayavardhanravi/DesignPatterns/tree/master/Facade
 [Flyweight]: https://github.com/jayavardhanravi/DesignPatterns/tree/master/Flyweight
 [Proxy]: https://github.com/jayavardhanravi/DesignPatterns/tree/master/Proxy
+[Chain Of Responsibility]: https://github.com/jayavardhanravi/DesignPatterns/tree/master/ChainOfResponsibility
+[PIMPL]: https://github.com/jayavardhanravi/DesignPatterns/tree/master/PIMPL
+[Command]: https://github.com/jayavardhanravi/DesignPatterns/tree/master/Command
+[Iterator]: https://github.com/jayavardhanravi/DesignPatterns/tree/master/Iterator
+[Mediator]: https://github.com/jayavardhanravi/DesignPatterns/tree/master/Mediator
+[Memento]: https://github.com/jayavardhanravi/DesignPatterns/tree/master/Memento
+[Observer]: https://github.com/jayavardhanravi/DesignPatterns/tree/master/Observer
+[State]: https://github.com/jayavardhanravi/DesignPatterns/tree/master/State
+[Strategy]: https://github.com/jayavardhanravi/DesignPatterns/tree/master/Strategy
+[Template]: https://github.com/jayavardhanravi/DesignPatterns/tree/master/Template
+[Visitor]: https://github.com/jayavardhanravi/DesignPatterns/tree/master/Visitor
