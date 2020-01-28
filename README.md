@@ -29,7 +29,19 @@ Collection of various design patterns with example implementation in C++. Creati
 | [Proxy] | Controlled access to original object |
 
 #### Behavioral Design Patterns
--
+| Pattern Name | Description  |
+| :---   | :--- |
+| [Chain of Responsibility] |  |
+| [PIMPL] |  |
+| [Command] |  |
+| [Iterator] |  |
+| [Mediator] |  |
+| [Memento] |  |
+| [Observer] |  |
+| [State] |  |
+| [Strategy] |  |
+| [Template] |  |
+| [Visitor] |  |
 
 ### References
 |**Books**||

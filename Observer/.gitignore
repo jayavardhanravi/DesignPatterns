@@ -1,0 +1,6 @@
+# Directories and Files that need to be ignored in git push
+
+**/Debug
+**/Release
+**/x64
+**/.vs
