@@ -1,4 +1,7 @@
+<img align="left" width="45" height="45" src="https://github.com/jayavardhanravi/DesignPatterns/blob/master/DesignPatterns/D848DC3F-64EC-4D37-9F05-72D98DFCF355.jpeg"> 
+
 # Design Patterns using C++
+
 [![Build status](https://ci.appveyor.com/api/projects/status/ift8fadhnt3snpah?svg=true)](https://ci.appveyor.com/project/jayavardhanravi/designpatterns)
 ![Language](https://img.shields.io/badge/language-C++-Blue)
 ![License](https://img.shields.io/badge/license-BSD2Clause-Green)
