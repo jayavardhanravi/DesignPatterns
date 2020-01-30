@@ -31,7 +31,7 @@ Collection of various design patterns with example implementation in C++. Creati
 #### Behavioral Design Patterns
 | Pattern Name | Description  |
 | :---   | :--- |
-| [Chain of Responsibility] |  |
+| [Chain of Responsibility] | Handle Request/Data by multiple configurable Handlers |
 | [PIMPL] |  |
 | [Command] |  |
 | [Iterator] |  |
