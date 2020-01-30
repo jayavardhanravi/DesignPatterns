@@ -1,4 +1,4 @@
-<img align="left" width="45" height="45" src="https://github.com/jayavardhanravi/DesignPatterns/blob/master/DesignPatterns/D848DC3F-64EC-4D37-9F05-72D98DFCF355.jpeg"> 
+<img align="left" width="50" height="50" src="https://github.com/jayavardhanravi/DesignPatterns/blob/master/DesignPatterns/D848DC3F-64EC-4D37-9F05-72D98DFCF355.jpeg"> 
 
 # Design Patterns using C++
 
