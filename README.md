@@ -1,4 +1,4 @@
-## Design Patterns using C++
+# Design Patterns using C++
 [![Build status](https://ci.appveyor.com/api/projects/status/ift8fadhnt3snpah?svg=true)](https://ci.appveyor.com/project/jayavardhanravi/designpatterns)
 ![Language](https://img.shields.io/badge/language-C++-Blue)
 ![License](https://img.shields.io/badge/license-BSD2Clause-Green)
@@ -7,7 +7,7 @@ Collection of various design patterns with example implementation in C++. Creati
 
 **Note:** Code is NOT optimized but is used as a part of knowledge sharing.
 
-#### Creational Design Patterns 
+## Creational Design Patterns 
 
 | Pattern Name | Description  |
 | :---   | :--- |
@@ -17,7 +17,7 @@ Collection of various design patterns with example implementation in C++. Creati
 | [Prototype] | Object constructed from a prototype|
 | [Singleton] | Build Class with single instance|
 
-#### Structural Design Patterns
+## Structural Design Patterns
 | Pattern Name | Description  |
 | :---   | :--- |
 | [Adapter] | Link Objects with incompatable interfaces/classes |
@@ -28,7 +28,7 @@ Collection of various design patterns with example implementation in C++. Creati
 | [Flyweight] | Sharing the common data between multiple objects |
 | [Proxy] | Controlled access to original object |
 
-#### Behavioral Design Patterns
+## Behavioral Design Patterns
 | Pattern Name | Description  |
 | :---   | :--- |
 | [Chain of Responsibility] |  |
@@ -43,14 +43,14 @@ Collection of various design patterns with example implementation in C++. Creati
 | [Template] |  |
 | [Visitor] |  |
 
-### References
+## References
 |**Books**||
 | :---   | :---   |
 | **Book Title** | *Design Patterns Elements Of Reusable Object-Oriented Software* |
 | **Book Publisher** | *Addison-Wesley* |
 | **Publication Year** | *2016* |
 
-### License
+## License
 ![License](https://img.shields.io/badge/license-BSD2Clause-Green)
 
 BSD 2-Clause License
