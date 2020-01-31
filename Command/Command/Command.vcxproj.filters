@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Activity">
+      <UniqueIdentifier>{5ebfb553-a9b3-4a70-9f90-18f8e8c96a79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Activity">
+      <UniqueIdentifier>{5a638ce6-f998-4067-a23e-67c79c73763a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Directive">
+      <UniqueIdentifier>{071a7f5c-f5ca-4572-8418-af06bd97dc6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Directive">
+      <UniqueIdentifier>{1e21b32a-d02b-492e-9a79-d52fb827636e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Invoker">
+      <UniqueIdentifier>{b2ca41bd-906c-4570-9678-b9d738ee99e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Invoker">
+      <UniqueIdentifier>{e891982a-31fe-4155-8f71-361fc851ae06}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Command.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Activity\DrawActivity.cpp">
+      <Filter>Source Files\Activity</Filter>
+    </ClCompile>
+    <ClCompile Include="Activity\EraseActivity.cpp">
+      <Filter>Source Files\Activity</Filter>
+    </ClCompile>
+    <ClCompile Include="Activity\SaveActivity.cpp">
+      <Filter>Source Files\Activity</Filter>
+    </ClCompile>
+    <ClCompile Include="Directive\Directive.cpp">
+      <Filter>Source Files\Directive</Filter>
+    </ClCompile>
+    <ClCompile Include="Invoker\InputHandler.cpp">
+      <Filter>Source Files\Invoker</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Activity\Activity.h">
+      <Filter>Header Files\Activity</Filter>
+    </ClInclude>
+    <ClInclude Include="Activity\DrawActivity.h">
+      <Filter>Header Files\Activity</Filter>
+    </ClInclude>
+    <ClInclude Include="Activity\EraseActivity.h">
+      <Filter>Header Files\Activity</Filter>
+    </ClInclude>
+    <ClInclude Include="Activity\SaveActivity.h">
+      <Filter>Header Files\Activity</Filter>
+    </ClInclude>
+    <ClInclude Include="Directive\BaseDirective.h">
+      <Filter>Header Files\Directive</Filter>
+    </ClInclude>
+    <ClInclude Include="Directive\Directive.h">
+      <Filter>Header Files\Directive</Filter>
+    </ClInclude>
+    <ClInclude Include="Invoker\InputHandler.h">
+      <Filter>Header Files\Invoker</Filter>
+    </ClInclude>
+    <ClInclude Include="Invoker\Commands.h">
+      <Filter>Header Files\Invoker</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>

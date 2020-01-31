@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Mesh">
+    <Position X="6.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAEAAgAAAIAAAACACAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Mesh.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Activity">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Activity\Activity.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DrawActivity">
+    <Position X="5.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAIAAAAAAAAQAAQAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Activity\DrawActivity.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EraseActivity">
+    <Position X="0.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAIAAAAAAAAQAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>Activity\EraseActivity.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SaveActivity">
+    <Position X="3" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAQAQAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Activity\SaveActivity.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BaseDirective">
+    <Position X="0.75" Y="5.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Directive\BaseDirective.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Directive">
+    <Position X="0.75" Y="7" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAABAAAAAAAAgAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Directive\Directive.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InputHandler">
+    <Position X="3" Y="5.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAAAAACAAAAAAAAAACAAAAAABAAI=</HashCode>
+      <FileName>Invoker\InputHandler.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Command">
+    <Position X="3.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAgAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Invoker\Commands.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
