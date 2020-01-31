@@ -36,7 +36,7 @@ Collection of various design patterns with example implementation in C++. Creati
 | :---   | :--- |
 | [Chain of Responsibility] | Handle Request/Data by multiple configurable Handlers |
 | [PIMPL] | Pointer to Implementation |
-| [Command] | Hanging Requests to Objects for Handling |
+| [Command] | Convert Requests as Objects for Handling |
 | [Iterator] |  |
 | [Mediator] |  |
 | [Memento] |  |
