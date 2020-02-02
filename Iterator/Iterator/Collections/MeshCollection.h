@@ -12,6 +12,7 @@ public:
 
 	int GetItem(unsigned int);
 	unsigned int GetSize() const;
+	bool SetItem(unsigned int, int);
 
 private:
 	int *collection_;

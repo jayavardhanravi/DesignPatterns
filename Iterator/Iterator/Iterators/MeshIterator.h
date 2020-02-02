@@ -9,9 +9,9 @@ public:
 	~MeshIterator();
 
 	int Begin();
-	int End();
+	bool End();
 	void Next();
-	int CurrentItem();
+	int CurrentIndex();
 
 private:
 	MeshCollection *meshCollection_;

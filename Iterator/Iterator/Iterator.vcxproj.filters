@@ -33,13 +33,7 @@
     <ClCompile Include="Collections\MeshCollection.cpp">
       <Filter>Source Files\Collections</Filter>
     </ClCompile>
-    <ClCompile Include="Collections\TextureCollection.cpp">
-      <Filter>Source Files\Collections</Filter>
-    </ClCompile>
     <ClCompile Include="Iterators\MeshIterator.cpp">
-      <Filter>Source Files\Iterators</Filter>
-    </ClCompile>
-    <ClCompile Include="Iterators\TextureIterator.cpp">
       <Filter>Source Files\Iterators</Filter>
     </ClCompile>
   </ItemGroup>
@@ -53,13 +47,7 @@
     <ClInclude Include="Collections\MeshCollection.h">
       <Filter>Header Files\Collections</Filter>
     </ClInclude>
-    <ClInclude Include="Collections\TextureCollection.h">
-      <Filter>Header Files\Collections</Filter>
-    </ClInclude>
     <ClInclude Include="Iterators\MeshIterator.h">
-      <Filter>Header Files\Iterators</Filter>
-    </ClInclude>
-    <ClInclude Include="Iterators\TextureIterator.h">
       <Filter>Header Files\Iterators</Filter>
     </ClInclude>
   </ItemGroup>

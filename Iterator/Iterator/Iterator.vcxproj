@@ -152,18 +152,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Collections\MeshCollection.cpp" />
-    <ClCompile Include="Collections\TextureCollection.cpp" />
     <ClCompile Include="Iterator.cpp" />
     <ClCompile Include="Iterators\MeshIterator.cpp" />
-    <ClCompile Include="Iterators\TextureIterator.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Collections\Collection.h" />
     <ClInclude Include="Collections\MeshCollection.h" />
-    <ClInclude Include="Collections\TextureCollection.h" />
     <ClInclude Include="Iterators\Iterator.h" />
     <ClInclude Include="Iterators\MeshIterator.h" />
-    <ClInclude Include="Iterators\TextureIterator.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

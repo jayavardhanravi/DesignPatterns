@@ -13,9 +13,9 @@ int MeshIterator::Begin()
 	return index_ = 0;
 }
 
-int MeshIterator::End()
+bool MeshIterator::End()
 {
-	return meshCollection_->GetSize();
+	return index_ >= meshCollection_->GetSize();
 }
 
 void MeshIterator::Next()
@@ -23,11 +23,9 @@ void MeshIterator::Next()
 	index_++;
 }
 
-int MeshIterator::CurrentItem()
+int MeshIterator::CurrentIndex()
 {
-	if (index_ >= End())
-		return -1;
-	return meshCollection_->GetItem(index_);
+	return index_;
 }
 
 Iterator * MeshCollection::GetIterator()
