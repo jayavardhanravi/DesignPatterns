@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="GuiData">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CACAEIABMEAAABAAAAAAAAAQAAABAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>GuiData.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GuiComponent">
+    <Position X="3.25" Y="2.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAiAAAAAAAAIUAAAAAAAA=</HashCode>
+      <FileName>GuiComponent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GuiHistoryHandler">
+    <Position X="0.5" Y="2.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAABBAAAAAIEAAAgAAAAAAAEAA=</HashCode>
+      <FileName>GuiHistoryHandler.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Component">
+    <Position X="2" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAEAAAAAAAAAAAAAAAIEAAAAAAAA=</HashCode>
+      <FileName>Component.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

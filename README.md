@@ -39,7 +39,7 @@ Collection of various design patterns with example implementation in C++. Creati
 | [Command] | Convert Requests as Objects for Handling |
 | [Iterator] | Traverse elements in collections without exposing |
 | [Mediator] |  Collabration between objects via a mediator |
-| [Memento] |  |
+| [Memento] | Saving and Restoring the state of an Object |
 | [Observer] |  |
 | [State] |  |
 | [Strategy] |  |
