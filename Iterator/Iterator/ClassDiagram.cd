@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Collection">
+    <Position X="3.25" Y="0.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAI=</HashCode>
+      <FileName>Collections\Collection.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MeshCollection">
+    <Position X="3.25" Y="3" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAABECAAAAAAABACAAAACAAAAAAAAAAAAI=</HashCode>
+      <FileName>Collections\MeshCollection.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Iterator">
+    <Position X="0.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AgIAAAAAAIAAAAAAAAAAgAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Iterators\Iterator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MeshIterator">
+    <Position X="0.5" Y="3" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AgIgABAAAAAAAIAAAAAAgAAAAAAAEAAAAAAAAAABAAA=</HashCode>
+      <FileName>Iterators\MeshIterator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
