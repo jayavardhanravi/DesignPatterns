@@ -1,5 +1,6 @@
 <map id="TubeMeshBuilder" name="TubeMeshBuilder">
-<area shape="rect" id="node1" title=" " alt="" coords="15,447,166,583"/>
-<area shape="rect" id="node2" href="$class_mesh_builder.html" title="Provides the class for creating different mesh objects based on the MESHTYPE provided." alt="" coords="22,145,159,399"/>
-<area shape="rect" id="node3" href="$class_mesh_builder_interface.html" title=" " alt="" coords="5,5,176,97"/>
+<area shape="rect" id="node1" title=" " alt="" coords="69,652,219,788"/>
+<area shape="rect" id="node2" href="$class_mesh_builder.html" title="Provides the class for creating different mesh objects based on the MESHTYPE provided." alt="" coords="75,307,213,604"/>
+<area shape="rect" id="node3" href="$class_mesh.html" title=" " alt="" coords="5,5,117,259"/>
+<area shape="rect" id="node4" href="$class_mesh_builder_interface.html" title=" " alt="" coords="141,86,312,178"/>
 </map>

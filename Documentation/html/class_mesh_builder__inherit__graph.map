@@ -1,6 +1,7 @@
 <map id="MeshBuilder" name="MeshBuilder">
-<area shape="rect" id="node1" title="Provides the class for creating different mesh objects based on the MESHTYPE provided." alt="" coords="125,145,263,399"/>
-<area shape="rect" id="node3" href="$class_closed_can_mesh_builder.html" title=" " alt="" coords="5,447,191,583"/>
-<area shape="rect" id="node4" href="$class_tube_mesh_builder.html" title=" " alt="" coords="215,447,365,583"/>
-<area shape="rect" id="node2" href="$class_mesh_builder_interface.html" title=" " alt="" coords="109,5,279,97"/>
+<area shape="rect" id="node1" title="Provides the class for creating different mesh objects based on the MESHTYPE provided." alt="" coords="125,307,263,604"/>
+<area shape="rect" id="node4" href="$class_closed_can_mesh_builder.html" title=" " alt="" coords="5,652,191,788"/>
+<area shape="rect" id="node5" href="$class_tube_mesh_builder.html" title=" " alt="" coords="215,652,365,788"/>
+<area shape="rect" id="node2" href="$class_mesh.html" title=" " alt="" coords="55,5,167,259"/>
+<area shape="rect" id="node3" href="$class_mesh_builder_interface.html" title=" " alt="" coords="191,86,362,178"/>
 </map>

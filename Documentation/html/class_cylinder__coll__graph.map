@@ -1,4 +1,5 @@
 <map id="Cylinder" name="Cylinder">
-<area shape="rect" id="node1" title=" " alt="" coords="7,219,133,487"/>
-<area shape="rect" id="node2" href="$class_mesh.html" title=" " alt="" coords="5,5,135,171"/>
+<area shape="rect" id="node1" title=" " alt="" coords="14,477,141,745"/>
+<area shape="rect" id="node2" href="$class_mesh.html" title=" " alt="" coords="21,189,133,428"/>
+<area shape="rect" id="node3" href="$class_mesh_property.html" title=" " alt="" coords="5,5,149,127"/>
 </map>

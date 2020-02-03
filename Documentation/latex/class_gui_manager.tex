@@ -1,0 +1,114 @@
+\hypertarget{class_gui_manager}{}\section{Gui\+Manager Class Reference}
+\label{class_gui_manager}\index{GuiManager@{GuiManager}}
+
+
+{\ttfamily \#include $<$Gui\+Manager.\+h$>$}
+
+
+
+Inheritance diagram for Gui\+Manager\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=176pt]{class_gui_manager__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Gui\+Manager\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=176pt]{class_gui_manager__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual \mbox{\hyperlink{class_gui_manager_ad3cad0a319d9fa745cea5ab8e511b4ac}{$\sim$\+Gui\+Manager}} ()
+\item 
+virtual void \mbox{\hyperlink{class_gui_manager_a32754b1f01775df580985ee9e6318a2f}{Broadcast}} (\mbox{\hyperlink{_mediator_2_mediator_2_commons_8h_a88683b64d84542943724ba0f211153af}{Module}}, const std\+::string \&)=0
+\item 
+virtual void \mbox{\hyperlink{class_gui_manager_a062c8b90e738509c1679c1fe50b1dddc}{Broadcast}} (const std\+::string \&)=0
+\item 
+virtual void \mbox{\hyperlink{class_gui_manager_acad986a245ce983ac46d0f1f38107c56}{Register}} (\mbox{\hyperlink{_mediator_2_mediator_2_commons_8h_a88683b64d84542943724ba0f211153af}{Module}}, \mbox{\hyperlink{class_gui_component}{Gui\+Component}} $\ast$)=0
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\+::map$<$ int, \mbox{\hyperlink{class_gui_component}{Gui\+Component}} $\ast$ $>$ \mbox{\hyperlink{class_gui_manager_ad980176ae4a013e537866439a440ba6a}{internal\+Modules}}
+\item 
+std\+::map$<$ int, \mbox{\hyperlink{class_gui_component}{Gui\+Component}} $\ast$ $>$ \mbox{\hyperlink{class_gui_manager_aff0931acdb10aefb4425e0ecd8061b43}{external\+Modules}}
+\item 
+std\+::map$<$ int, \mbox{\hyperlink{class_gui_component}{Gui\+Component}} $\ast$ $>$ \mbox{\hyperlink{class_gui_manager_a949c60936bbbdc463ac190dcec53d173}{log\+Modules}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_gui_manager_ad3cad0a319d9fa745cea5ab8e511b4ac}\label{class_gui_manager_ad3cad0a319d9fa745cea5ab8e511b4ac}} 
+\index{GuiManager@{GuiManager}!````~GuiManager@{$\sim$GuiManager}}
+\index{````~GuiManager@{$\sim$GuiManager}!GuiManager@{GuiManager}}
+\subsubsection{\texorpdfstring{$\sim$GuiManager()}{~GuiManager()}}
+{\footnotesize\ttfamily virtual Gui\+Manager\+::$\sim$\+Gui\+Manager (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_gui_manager_a32754b1f01775df580985ee9e6318a2f}\label{class_gui_manager_a32754b1f01775df580985ee9e6318a2f}} 
+\index{GuiManager@{GuiManager}!Broadcast@{Broadcast}}
+\index{Broadcast@{Broadcast}!GuiManager@{GuiManager}}
+\subsubsection{\texorpdfstring{Broadcast()}{Broadcast()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily virtual void Gui\+Manager\+::\+Broadcast (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{_mediator_2_mediator_2_commons_8h_a88683b64d84542943724ba0f211153af}{Module}}}]{,  }\item[{const std\+::string \&}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Implemented in \mbox{\hyperlink{class_data_manager_a645613a4c6cca77e73aff3c9a05fd696}{Data\+Manager}}.
+
+\mbox{\Hypertarget{class_gui_manager_a062c8b90e738509c1679c1fe50b1dddc}\label{class_gui_manager_a062c8b90e738509c1679c1fe50b1dddc}} 
+\index{GuiManager@{GuiManager}!Broadcast@{Broadcast}}
+\index{Broadcast@{Broadcast}!GuiManager@{GuiManager}}
+\subsubsection{\texorpdfstring{Broadcast()}{Broadcast()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily virtual void Gui\+Manager\+::\+Broadcast (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Implemented in \mbox{\hyperlink{class_data_manager_a46cc380fc22a3069d3e55800b3f39d4f}{Data\+Manager}}.
+
+\mbox{\Hypertarget{class_gui_manager_acad986a245ce983ac46d0f1f38107c56}\label{class_gui_manager_acad986a245ce983ac46d0f1f38107c56}} 
+\index{GuiManager@{GuiManager}!Register@{Register}}
+\index{Register@{Register}!GuiManager@{GuiManager}}
+\subsubsection{\texorpdfstring{Register()}{Register()}}
+{\footnotesize\ttfamily virtual void Gui\+Manager\+::\+Register (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{_mediator_2_mediator_2_commons_8h_a88683b64d84542943724ba0f211153af}{Module}}}]{,  }\item[{\mbox{\hyperlink{class_gui_component}{Gui\+Component}} $\ast$}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Implemented in \mbox{\hyperlink{class_data_manager_a7be4a3267e02031eb2825fb7dd3dc4eb}{Data\+Manager}}.
+
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{class_gui_manager_aff0931acdb10aefb4425e0ecd8061b43}\label{class_gui_manager_aff0931acdb10aefb4425e0ecd8061b43}} 
+\index{GuiManager@{GuiManager}!externalModules@{externalModules}}
+\index{externalModules@{externalModules}!GuiManager@{GuiManager}}
+\subsubsection{\texorpdfstring{externalModules}{externalModules}}
+{\footnotesize\ttfamily std\+::map$<$int, \mbox{\hyperlink{class_gui_component}{Gui\+Component}} $\ast$$>$ Gui\+Manager\+::external\+Modules\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{class_gui_manager_ad980176ae4a013e537866439a440ba6a}\label{class_gui_manager_ad980176ae4a013e537866439a440ba6a}} 
+\index{GuiManager@{GuiManager}!internalModules@{internalModules}}
+\index{internalModules@{internalModules}!GuiManager@{GuiManager}}
+\subsubsection{\texorpdfstring{internalModules}{internalModules}}
+{\footnotesize\ttfamily std\+::map$<$int, \mbox{\hyperlink{class_gui_component}{Gui\+Component}} $\ast$$>$ Gui\+Manager\+::internal\+Modules\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{class_gui_manager_a949c60936bbbdc463ac190dcec53d173}\label{class_gui_manager_a949c60936bbbdc463ac190dcec53d173}} 
+\index{GuiManager@{GuiManager}!logModules@{logModules}}
+\index{logModules@{logModules}!GuiManager@{GuiManager}}
+\subsubsection{\texorpdfstring{logModules}{logModules}}
+{\footnotesize\ttfamily std\+::map$<$int, \mbox{\hyperlink{class_gui_component}{Gui\+Component}} $\ast$$>$ Gui\+Manager\+::log\+Modules\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_gui_manager_8h}{Gui\+Manager.\+h}}\end{DoxyCompactItemize}

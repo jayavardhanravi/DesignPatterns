@@ -69,15 +69,17 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="_mesh_property_8h_source.html">MeshProperty.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="_abstract_factory_2_abstract_factory_2common_2_mesh_property_8h_source.html">MeshProperty.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for MeshProperty:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_mesh_property__inherit__graph.png" border="0" usemap="#_mesh_property_inherit__map" alt="Inheritance graph"/></div>
 <map name="_mesh_property_inherit__map" id="_mesh_property_inherit__map">
-<area shape="rect"  title=" " alt="" coords="91,5,235,97"/>
-<area shape="rect"  href="class_cylinder_property.html" title=" " alt="" coords="5,145,152,252"/>
-<area shape="rect"  href="class_sphere_property.html" title=" " alt="" coords="176,145,320,252"/>
+<area shape="rect"  title=" " alt="" coords="253,5,397,127"/>
+<area shape="rect"  href="class_color_property.html" title=" " alt="" coords="5,175,144,281"/>
+<area shape="rect"  href="class_cylinder_property.html" title=" " alt="" coords="168,175,315,281"/>
+<area shape="rect"  href="class_sphere_property.html" title=" " alt="" coords="339,175,483,281"/>
+<area shape="rect"  href="class_texture_property.html" title=" " alt="" coords="507,175,650,281"/>
 </map>
 </div>
 <div class="dynheader">
@@ -85,7 +87,7 @@ Collaboration diagram for MeshProperty:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_mesh_property__coll__graph.png" border="0" usemap="#_mesh_property_coll__map" alt="Collaboration graph"/></div>
 <map name="_mesh_property_coll__map" id="_mesh_property_coll__map">
-<area shape="rect"  title=" " alt="" coords="5,5,149,97"/>
+<area shape="rect"  title=" " alt="" coords="5,5,149,127"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -95,10 +97,39 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a4ac7b69cfdacadf447b7db8fcc533736"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0a50701a5c33ce7aec5c413b409a754f"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mesh_property.html#a0a50701a5c33ce7aec5c413b409a754f">GetMeshProperty</a> ()=0</td></tr>
 <tr class="separator:a0a50701a5c33ce7aec5c413b409a754f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ac7b69cfdacadf447b7db8fcc533736"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mesh_property.html#a4ac7b69cfdacadf447b7db8fcc533736">~MeshProperty</a> ()</td></tr>
+<tr class="separator:a4ac7b69cfdacadf447b7db8fcc533736"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aecb4479e9430b8071104fbf7dde0b1c5"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mesh_property.html#aecb4479e9430b8071104fbf7dde0b1c5">PrintPropertyInfo</a> ()=0</td></tr>
+<tr class="separator:aecb4479e9430b8071104fbf7dde0b1c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a4ac7b69cfdacadf447b7db8fcc533736"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4ac7b69cfdacadf447b7db8fcc533736">&#9670;&nbsp;</a></span>~MeshProperty()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ac7b69cfdacadf447b7db8fcc533736">&#9670;&nbsp;</a></span>~MeshProperty() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual MeshProperty::~MeshProperty </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4ac7b69cfdacadf447b7db8fcc533736"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ac7b69cfdacadf447b7db8fcc533736">&#9670;&nbsp;</a></span>~MeshProperty() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -150,8 +181,35 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="aecb4479e9430b8071104fbf7dde0b1c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aecb4479e9430b8071104fbf7dde0b1c5">&#9670;&nbsp;</a></span>PrintPropertyInfo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual std::string MeshProperty::PrintPropertyInfo </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="class_color_property.html#a1a04f62489d3f17f2984fdafa7db3f52">ColorProperty</a>, and <a class="el" href="class_texture_property.html#a701b7bb567726578a322b078d35b8711">TextureProperty</a>.</p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="_mesh_property_8h_source.html">MeshProperty.h</a></li>
+<li><a class="el" href="_abstract_factory_2_abstract_factory_2common_2_mesh_property_8h_source.html">AbstractFactory/AbstractFactory/common/MeshProperty.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

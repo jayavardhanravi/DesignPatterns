@@ -1,4 +1,5 @@
 <map id="Box" name="Box">
-<area shape="rect" id="node1" title=" " alt="" coords="23,219,117,325"/>
-<area shape="rect" id="node2" href="$class_mesh.html" title=" " alt="" coords="5,5,135,171"/>
+<area shape="rect" id="node1" title=" " alt="" coords="30,477,125,584"/>
+<area shape="rect" id="node2" href="$class_mesh.html" title=" " alt="" coords="21,189,133,428"/>
+<area shape="rect" id="node3" href="$class_mesh_property.html" title=" " alt="" coords="5,5,149,127"/>
 </map>

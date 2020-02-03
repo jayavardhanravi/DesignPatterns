@@ -1,0 +1,4 @@
+<map id="GuiManager" name="GuiManager">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,133,156"/>
+<area shape="rect" id="node2" href="$class_data_manager.html" title=" " alt="" coords="6,204,133,340"/>
+</map>

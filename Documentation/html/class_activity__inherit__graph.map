@@ -1,0 +1,6 @@
+<map id="Activity" name="Activity">
+<area shape="rect" id="node1" title=" " alt="" coords="161,5,267,97"/>
+<area shape="rect" id="node2" href="$class_draw_activity.html" title=" " alt="" coords="5,145,127,252"/>
+<area shape="rect" id="node3" href="$class_erase_activity.html" title=" " alt="" coords="151,145,277,252"/>
+<area shape="rect" id="node4" href="$class_save_activity.html" title=" " alt="" coords="302,145,422,252"/>
+</map>

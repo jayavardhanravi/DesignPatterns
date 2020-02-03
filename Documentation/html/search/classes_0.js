@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['box',['Box',['../class_box.html',1,'']]]
+  ['activity',['Activity',['../class_activity.html',1,'']]]
 ];
