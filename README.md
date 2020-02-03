@@ -38,7 +38,7 @@ Collection of various design patterns with example implementation in C++. Creati
 | [PIMPL] | Pointer to Implementation |
 | [Command] | Convert Requests as Objects for Handling |
 | [Iterator] | Traverse elements in collections without exposing |
-| [Mediator] |  |
+| [Mediator] |  Collabration between objects via a mediator |
 | [Memento] |  |
 | [Observer] |  |
 | [State] |  |

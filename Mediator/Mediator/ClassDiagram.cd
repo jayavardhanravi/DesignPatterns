@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="GuiManager">
+    <Position X="0.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAIAIAAAAAAAAABgAAAAAAAAACAAAA=</HashCode>
+      <FileName>GuiManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GuiComponent">
+    <Position X="3.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAIAAgAAAAIAAAAAAgAAIIgAAAAAAAAAAAAA=</HashCode>
+      <FileName>GuiComponent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ButtonComponent">
+    <Position X="3.25" Y="3.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>QgAAAAAAAIAAAAAAAAAAAACAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ButtonComponent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataManager">
+    <Position X="0.5" Y="3.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAACAAAAAAAAAAAAgAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Module">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAAAACAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Commons.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
