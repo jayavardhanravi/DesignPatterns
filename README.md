@@ -40,7 +40,7 @@ Collection of various design patterns with example implementation in C++. Creati
 | [Iterator] | Traverse elements in collections without exposing |
 | [Mediator] |  Collabration between objects via a mediator |
 | [Memento] | Saving and Restoring the state of an Object |
-| [Observer] |  |
+| [Observer] | Notify Events between objects having one to many relationship |
 | [State] |  |
 | [Strategy] |  |
 | [Template] |  |
