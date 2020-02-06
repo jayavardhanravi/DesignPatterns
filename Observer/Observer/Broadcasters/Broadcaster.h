@@ -4,6 +4,7 @@
 #include <vector>
 #include <memory>
 #include <algorithm>
+#include <mutex>
 
 #include "../Viewers/Viewer.h"
 
@@ -21,4 +22,5 @@ private:
 
 private:
 	std::vector<std::weak_ptr<Viewer>> viewerCollection;
+	std::mutex lockObject;
 };

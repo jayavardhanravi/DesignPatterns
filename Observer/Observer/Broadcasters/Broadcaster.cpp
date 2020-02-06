@@ -3,6 +3,7 @@
 
 void Broadcaster::TerminateBroadcaster()
 {
+	std::lock_guard<std::mutex> lock(lockObject);
 	viewerCollection.clear();
 }
 
@@ -11,6 +12,7 @@ bool Broadcaster::Register(std::weak_ptr<Viewer> subscriber)
 	try
 	{
 		auto data = subscriber.lock();
+		std::lock_guard<std::mutex> lock(lockObject);
 		for (int i = 0; i < viewerCollection.size(); ++i)
 		{
 			auto iterData = viewerCollection[i].lock();
@@ -30,6 +32,7 @@ bool Broadcaster::Register(std::weak_ptr<Viewer> subscriber)
 bool Broadcaster::UnRegister(std::weak_ptr<Viewer> subscriber)
 {
 	auto data = subscriber.lock();
+	std::lock_guard<std::mutex> lock(lockObject);
 	for (int i = 0; i < viewerCollection.size(); ++i)
 	{
 		auto iterData = viewerCollection[i].lock();
@@ -45,6 +48,7 @@ bool Broadcaster::UnRegister(std::weak_ptr<Viewer> subscriber)
 
 void Broadcaster::SendUpdates(const std::string& updateMessage)
 {
+	std::lock_guard<std::mutex> lock(lockObject);
 	for (auto &subscriber : viewerCollection)
 	{
 		auto data = subscriber.lock();
