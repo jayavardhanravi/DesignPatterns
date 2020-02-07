@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="RobotState" Collapsed="true">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAAAAAAAABAAAAACIAAAABAAAQAAA=</HashCode>
+      <FileName>States\RobotState.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Initialize" Collapsed="true">
+    <Position X="7.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAABAAAEAAIEAAAAAAAAAAA=</HashCode>
+      <FileName>States\Initialize.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ready" Collapsed="true">
+    <Position X="0.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAEAAAAAAAAAAAAAAAIEAAABAAAQAAA=</HashCode>
+      <FileName>States\Ready.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Running" Collapsed="true">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAMAAABAAAQAAA=</HashCode>
+      <FileName>States\Running.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shutdown" Collapsed="true">
+    <Position X="9.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAAABAAQABAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>States\Shutdown.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Stopped" Collapsed="true">
+    <Position X="3" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAIAAAAAAAAAAAAAAAAAAAIEAAAACAAQAAA=</HashCode>
+      <FileName>States\Stopped.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RobotController" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIQAIAAAAAAAAAAAAAAAAAAAgAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Controller\RobotController.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Controller" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAAAAgAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Controller\Controller.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Command" Collapsed="true">
+    <Position X="12.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAABAAAAAIAAAQAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Controller\Commons.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

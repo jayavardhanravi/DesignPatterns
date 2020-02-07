@@ -41,7 +41,7 @@ Collection of various design patterns with example implementation in C++. Creati
 | [Mediator] |  Collabration between objects via a mediator |
 | [Memento] | Saving and Restoring the state of an Object |
 | [Observer] | Notify Events between objects having one to many relationship |
-| [State] |  |
+| [State] | Alter the Objects behaviour when internal parameters change |
 | [Strategy] |  |
 | [Template] |  |
 | [Visitor] |  |
