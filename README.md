@@ -43,7 +43,7 @@ Collection of various design patterns with example implementation in C++. Creati
 | [Observer] | Notify Events between objects having one to many relationship |
 | [State] | Alter the Objects behaviour when internal parameters change |
 | [Strategy] | Run-time changing of objects inturn changing behaviour |
-| [Template] |  |
+| [Template] | Provides Skeleton in superclass allowing some of the steps to be overriden by subclasses |
 | [Visitor] |  |
 
 ## References
