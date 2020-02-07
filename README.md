@@ -42,7 +42,7 @@ Collection of various design patterns with example implementation in C++. Creati
 | [Memento] | Saving and Restoring the state of an Object |
 | [Observer] | Notify Events between objects having one to many relationship |
 | [State] | Alter the Objects behaviour when internal parameters change |
-| [Strategy] |  |
+| [Strategy] | Run-time changing of objects inturn changing behaviour |
 | [Template] |  |
 | [Visitor] |  |
 
