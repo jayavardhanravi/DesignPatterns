@@ -1,0 +1,108 @@
+\hypertarget{class_robot_state}{}\section{Robot\+State Class Reference}
+\label{class_robot_state}\index{RobotState@{RobotState}}
+
+
+{\ttfamily \#include $<$Robot\+State.\+h$>$}
+
+
+
+Inheritance diagram for Robot\+State\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_robot_state__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Robot\+State\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=180pt]{class_robot_state__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual \mbox{\hyperlink{class_robot_state_ade87e1779a44246bd3ca37c4ada8c842}{$\sim$\+Robot\+State}} ()
+\item 
+virtual bool \mbox{\hyperlink{class_robot_state_a5087ea1ba96b9aad623fe52bbb249b41}{Init\+Robot}} (\mbox{\hyperlink{class_controller}{Controller}} $\ast$)
+\item 
+virtual bool \mbox{\hyperlink{class_robot_state_a1e8e2842a62f2666b3c687ec090a3b4f}{Ready\+Robot}} (\mbox{\hyperlink{class_controller}{Controller}} $\ast$)
+\item 
+virtual bool \mbox{\hyperlink{class_robot_state_a34151e935ca2807b89df8ab7f0561487}{Running\+Robot}} (\mbox{\hyperlink{class_controller}{Controller}} $\ast$)
+\item 
+virtual bool \mbox{\hyperlink{class_robot_state_a58fdf53d3f27201879d4dbf7aaef7ca1}{Stopped\+Robot}} (\mbox{\hyperlink{class_controller}{Controller}} $\ast$)
+\item 
+virtual bool \mbox{\hyperlink{class_robot_state_a9f2cd6a7ec1022e85d6ac160c6f75e54}{Shutdown\+Robot}} (\mbox{\hyperlink{class_controller}{Controller}} $\ast$)
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_robot_state_ade87e1779a44246bd3ca37c4ada8c842}\label{class_robot_state_ade87e1779a44246bd3ca37c4ada8c842}} 
+\index{RobotState@{RobotState}!````~RobotState@{$\sim$RobotState}}
+\index{````~RobotState@{$\sim$RobotState}!RobotState@{RobotState}}
+\subsubsection{\texorpdfstring{$\sim$RobotState()}{~RobotState()}}
+{\footnotesize\ttfamily virtual Robot\+State\+::$\sim$\+Robot\+State (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_robot_state_a5087ea1ba96b9aad623fe52bbb249b41}\label{class_robot_state_a5087ea1ba96b9aad623fe52bbb249b41}} 
+\index{RobotState@{RobotState}!InitRobot@{InitRobot}}
+\index{InitRobot@{InitRobot}!RobotState@{RobotState}}
+\subsubsection{\texorpdfstring{InitRobot()}{InitRobot()}}
+{\footnotesize\ttfamily virtual bool Robot\+State\+::\+Init\+Robot (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_controller}{Controller}} $\ast$}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Reimplemented in \mbox{\hyperlink{class_shutdown_a56ba69711c5d716717ce511f6ab3ec99}{Shutdown}}, and \mbox{\hyperlink{class_initialize_afaeae9e331da4559ae27c7c1f22d92df}{Initialize}}.
+
+\mbox{\Hypertarget{class_robot_state_a1e8e2842a62f2666b3c687ec090a3b4f}\label{class_robot_state_a1e8e2842a62f2666b3c687ec090a3b4f}} 
+\index{RobotState@{RobotState}!ReadyRobot@{ReadyRobot}}
+\index{ReadyRobot@{ReadyRobot}!RobotState@{RobotState}}
+\subsubsection{\texorpdfstring{ReadyRobot()}{ReadyRobot()}}
+{\footnotesize\ttfamily virtual bool Robot\+State\+::\+Ready\+Robot (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_controller}{Controller}} $\ast$}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Reimplemented in \mbox{\hyperlink{class_stopped_ac47fcf352b8724dd41de6a5db7976b88}{Stopped}}, \mbox{\hyperlink{class_initialize_ab6682470e76cf6ff4b3e75707096dac9}{Initialize}}, and \mbox{\hyperlink{class_ready_abc21fdcc13ef0bd14361cdd1b2cd73a6}{Ready}}.
+
+\mbox{\Hypertarget{class_robot_state_a34151e935ca2807b89df8ab7f0561487}\label{class_robot_state_a34151e935ca2807b89df8ab7f0561487}} 
+\index{RobotState@{RobotState}!RunningRobot@{RunningRobot}}
+\index{RunningRobot@{RunningRobot}!RobotState@{RobotState}}
+\subsubsection{\texorpdfstring{RunningRobot()}{RunningRobot()}}
+{\footnotesize\ttfamily virtual bool Robot\+State\+::\+Running\+Robot (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_controller}{Controller}} $\ast$}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Reimplemented in \mbox{\hyperlink{class_ready_a963ef4cb03dacb0b1f31eb4125b7fd68}{Ready}}, and \mbox{\hyperlink{class_running_a61f82d910ea233cff01d7ec1cf00e995}{Running}}.
+
+\mbox{\Hypertarget{class_robot_state_a9f2cd6a7ec1022e85d6ac160c6f75e54}\label{class_robot_state_a9f2cd6a7ec1022e85d6ac160c6f75e54}} 
+\index{RobotState@{RobotState}!ShutdownRobot@{ShutdownRobot}}
+\index{ShutdownRobot@{ShutdownRobot}!RobotState@{RobotState}}
+\subsubsection{\texorpdfstring{ShutdownRobot()}{ShutdownRobot()}}
+{\footnotesize\ttfamily virtual bool Robot\+State\+::\+Shutdown\+Robot (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_controller}{Controller}} $\ast$}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Reimplemented in \mbox{\hyperlink{class_stopped_ab3e25b89de8b1fead0e6faa766b40da0}{Stopped}}, and \mbox{\hyperlink{class_shutdown_ac3e8449d327804a47d82f8d84c3d99b4}{Shutdown}}.
+
+\mbox{\Hypertarget{class_robot_state_a58fdf53d3f27201879d4dbf7aaef7ca1}\label{class_robot_state_a58fdf53d3f27201879d4dbf7aaef7ca1}} 
+\index{RobotState@{RobotState}!StoppedRobot@{StoppedRobot}}
+\index{StoppedRobot@{StoppedRobot}!RobotState@{RobotState}}
+\subsubsection{\texorpdfstring{StoppedRobot()}{StoppedRobot()}}
+{\footnotesize\ttfamily virtual bool Robot\+State\+::\+Stopped\+Robot (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_controller}{Controller}} $\ast$}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Reimplemented in \mbox{\hyperlink{class_ready_a88f3f1d4ef8b595ab9b9e421aa3a45c8}{Ready}}, \mbox{\hyperlink{class_running_aac21e16784554ee4ac95b9a76310ed42}{Running}}, and \mbox{\hyperlink{class_stopped_adbd9841ac4c2f267e07d683e389593a4}{Stopped}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_robot_state_8h}{Robot\+State.\+h}}\end{DoxyCompactItemize}

@@ -4,6 +4,8 @@ var searchData=
   ['box_2ecpp',['Box.cpp',['../_box_8cpp.html',1,'']]],
   ['box_2eh',['Box.h',['../_box_8h.html',1,'']]],
   ['bridge_2ecpp',['Bridge.cpp',['../_bridge_8cpp.html',1,'']]],
+  ['broadcaster_2ecpp',['Broadcaster.cpp',['../_broadcaster_8cpp.html',1,'']]],
+  ['broadcaster_2eh',['Broadcaster.h',['../_broadcaster_8h.html',1,'']]],
   ['builder_2ecpp',['Builder.cpp',['../_builder_8cpp.html',1,'']]],
   ['buttoncomponent_2ecpp',['ButtonComponent.cpp',['../_button_component_8cpp.html',1,'']]],
   ['buttoncomponent_2eh',['ButtonComponent.h',['../_button_component_8h.html',1,'']]],

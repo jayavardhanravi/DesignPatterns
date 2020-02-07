@@ -1,13 +1,31 @@
 var searchData=
 [
   ['readme',['README',['../md__d_1__g_i_t__practice__design_patterns__r_e_a_d_m_e.html',1,'']]],
+  ['radioviewer',['RadioViewer',['../class_radio_viewer.html',1,'RadioViewer'],['../class_radio_viewer.html#a66b6bf44ba9e376fe6ed8a8d65d86f8f',1,'RadioViewer::RadioViewer()']]],
+  ['radioviewer_2ecpp',['RadioViewer.cpp',['../_radio_viewer_8cpp.html',1,'']]],
+  ['radioviewer_2eh',['RadioViewer.h',['../_radio_viewer_8h.html',1,'']]],
   ['readme_2emd',['README.md',['../_r_e_a_d_m_e_8md.html',1,'']]],
+  ['ready',['Ready',['../class_ready.html',1,'Ready'],['../class_ready.html#a21c2af0d849e8a7bd0b72172b8bff32d',1,'Ready::Ready()'],['../_state_2_state_2_controller_2_commons_8h.html#a2afce0a47a93eee73a314d53e4890153a6564f2f3e15be06b670547bbcaaf0798',1,'READY():&#160;Commons.h']]],
+  ['ready_2ecpp',['Ready.cpp',['../_ready_8cpp.html',1,'']]],
+  ['ready_2eh',['Ready.h',['../_ready_8h.html',1,'']]],
+  ['readyrobot',['ReadyRobot',['../class_initialize.html#ab6682470e76cf6ff4b3e75707096dac9',1,'Initialize::ReadyRobot()'],['../class_ready.html#abc21fdcc13ef0bd14361cdd1b2cd73a6',1,'Ready::ReadyRobot()'],['../class_robot_state.html#a1e8e2842a62f2666b3c687ec090a3b4f',1,'RobotState::ReadyRobot()'],['../class_stopped.html#ac47fcf352b8724dd41de6a5db7976b88',1,'Stopped::ReadyRobot()']]],
   ['receivedata',['ReceiveData',['../class_button_component.html#a2f8433707fbd9c184ba359bc41f49305',1,'ButtonComponent::ReceiveData()'],['../class_gui_component.html#ad136b2da6c63d7d3147f6cc411696cfe',1,'GuiComponent::ReceiveData()']]],
-  ['register',['Register',['../class_data_manager.html#a7be4a3267e02031eb2825fb7dd3dc4eb',1,'DataManager::Register()'],['../class_gui_manager.html#acad986a245ce983ac46d0f1f38107c56',1,'GuiManager::Register()']]],
+  ['register',['Register',['../class_data_manager.html#a7be4a3267e02031eb2825fb7dd3dc4eb',1,'DataManager::Register()'],['../class_gui_manager.html#acad986a245ce983ac46d0f1f38107c56',1,'GuiManager::Register()'],['../class_broadcaster.html#abff325f58fd35165c968cbf31276e0ab',1,'Broadcaster::Register()']]],
   ['regularmesh',['RegularMesh',['../class_regular_mesh.html',1,'RegularMesh'],['../class_regular_mesh.html#a96ec7f2ab73178638c6887b8a37735ac',1,'RegularMesh::RegularMesh()']]],
   ['regularmesh_2ecpp',['RegularMesh.cpp',['../_regular_mesh_8cpp.html',1,'']]],
   ['regularmesh_2eh',['RegularMesh.h',['../_regular_mesh_8h.html',1,'']]],
   ['removechildmesh',['RemoveChildMesh',['../class_mesh.html#a530e7b4ea82226f6e15b0ff6c36ea3d8',1,'Mesh::RemoveChildMesh()'],['../class_voxel_mesh.html#ae86555f2df9a4ba3b21b62a4bd26b591',1,'VoxelMesh::RemoveChildMesh()'],['../class_mesh.html#a530e7b4ea82226f6e15b0ff6c36ea3d8',1,'Mesh::RemoveChildMesh()'],['../class_voxel_mesh.html#ae86555f2df9a4ba3b21b62a4bd26b591',1,'VoxelMesh::RemoveChildMesh()']]],
   ['rendermodel',['RenderModel',['../class_sphere_model.html#a3ac469e318f16ff912f6c50e9304c2a3',1,'SphereModel']]],
-  ['resetinstance',['ResetInstance',['../class_simple_singleton.html#a81614f1e12c738b592cb7ec6339dbeed',1,'SimpleSingleton']]]
+  ['resetinstance',['ResetInstance',['../class_simple_singleton.html#a81614f1e12c738b592cb7ec6339dbeed',1,'SimpleSingleton']]],
+  ['restoreguicomponent',['RestoreGuiComponent',['../class_component.html#a0a1e8b4aaa523ad8b6460ff35dd6c584',1,'Component::RestoreGuiComponent()'],['../class_gui_component.html#a6721cce20f5628d9413784b10a48b359',1,'GuiComponent::RestoreGuiComponent()']]],
+  ['restorepreviousstate',['RestorePreviousState',['../class_gui_history_handler.html#a7c5468c285bc60e8d16701155803be44',1,'GuiHistoryHandler']]],
+  ['robotcontroller',['RobotController',['../class_robot_controller.html',1,'RobotController'],['../class_robot_controller.html#a2ebb7ba534ddc7e02a047b15c980f4e7',1,'RobotController::RobotController()']]],
+  ['robotcontroller_2ecpp',['RobotController.cpp',['../_robot_controller_8cpp.html',1,'']]],
+  ['robotcontroller_2eh',['RobotController.h',['../_robot_controller_8h.html',1,'']]],
+  ['robotstate',['RobotState',['../class_robot_state.html',1,'']]],
+  ['robotstate_2eh',['RobotState.h',['../_robot_state_8h.html',1,'']]],
+  ['running',['Running',['../class_running.html',1,'Running'],['../class_running.html#a4f9dd4f9c1b1ce72f2b65b13d9b4e65a',1,'Running::Running()'],['../_state_2_state_2_controller_2_commons_8h.html#a2afce0a47a93eee73a314d53e4890153a1061be6c3fb88d32829cba6f6b2be304',1,'RUNNING():&#160;Commons.h']]],
+  ['running_2ecpp',['Running.cpp',['../_running_8cpp.html',1,'']]],
+  ['running_2eh',['Running.h',['../_running_8h.html',1,'']]],
+  ['runningrobot',['RunningRobot',['../class_ready.html#a963ef4cb03dacb0b1f31eb4125b7fd68',1,'Ready::RunningRobot()'],['../class_robot_state.html#a34151e935ca2807b89df8ab7f0561487',1,'RobotState::RunningRobot()'],['../class_running.html#a61f82d910ea233cff01d7ec1cf00e995',1,'Running::RunningRobot()']]]
 ];

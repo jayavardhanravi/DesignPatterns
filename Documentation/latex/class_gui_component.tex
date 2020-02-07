@@ -11,7 +11,7 @@ Inheritance diagram for Gui\+Component\+:
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=203pt]{class_gui_component__inherit__graph}
+\includegraphics[height=550pt]{class_gui_component__inherit__graph}
 \end{center}
 \end{figure}
 
@@ -21,13 +21,13 @@ Collaboration diagram for Gui\+Component\+:
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=206pt]{class_gui_component__coll__graph}
+\includegraphics[width=324pt]{class_gui_component__coll__graph}
 \end{center}
 \end{figure}
 \subsection*{Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
-virtual \mbox{\hyperlink{class_gui_component_a1a24d7d4f14f0bcd7d9f81a397c79f4e}{$\sim$\+Gui\+Component}} ()
+virtual \mbox{\hyperlink{class_gui_component_ad94998891efad935b4422cf1da69e4af}{$\sim$\+Gui\+Component}} ()
 \item 
 virtual int \mbox{\hyperlink{class_gui_component_a57b8809f4ce6a4e238c5b87c158da99b}{Gui\+Id}} ()
 \item 
@@ -40,6 +40,16 @@ virtual void \mbox{\hyperlink{class_gui_component_a50da12b404e7ef1adbebafdabd668
 virtual std\+::string \mbox{\hyperlink{class_gui_component_ad136b2da6c63d7d3147f6cc411696cfe}{Receive\+Data}} (const std\+::string \&)=0
 \item 
 virtual void \mbox{\hyperlink{class_gui_component_a34ffc6f2ca0ce6f58c9fb6a2fd3e1a32}{Attach\+To\+Gui\+Manager}} (\mbox{\hyperlink{class_gui_manager}{Gui\+Manager}} $\ast$gui\+Manager)
+\item 
+\mbox{\hyperlink{class_gui_component_a39e1734c781ba4ac8c87da58e0a10ebd}{Gui\+Component}} ()
+\item 
+\mbox{\hyperlink{class_gui_component_ad94998891efad935b4422cf1da69e4af}{$\sim$\+Gui\+Component}} ()
+\item 
+\mbox{\hyperlink{class_gui_data}{Gui\+Data}} $\ast$ \mbox{\hyperlink{class_gui_component_a6721cce20f5628d9413784b10a48b359}{Restore\+Gui\+Component}} (\mbox{\hyperlink{class_gui_data}{Gui\+Data}} $\ast$)
+\item 
+\mbox{\hyperlink{class_gui_data}{Gui\+Data}} $\ast$ \mbox{\hyperlink{class_gui_component_a11b7920b50fe9e10a7f2450a79e03647}{Create\+Gui\+Data}} ()
+\item 
+\mbox{\hyperlink{class_gui_data}{Gui\+Data}} $\ast$ \mbox{\hyperlink{class_gui_component_af41e8f80eeca9b258649c7579a7e8c5c}{Save\+Gui\+State}} ()
 \end{DoxyCompactItemize}
 \subsection*{Protected Attributes}
 \begin{DoxyCompactItemize}
@@ -51,11 +61,23 @@ int \mbox{\hyperlink{class_gui_component_a8fb428ee8083cdaf7d1f9729a22bcf84}{gui\
 
 
 \subsection{Constructor \& Destructor Documentation}
-\mbox{\Hypertarget{class_gui_component_a1a24d7d4f14f0bcd7d9f81a397c79f4e}\label{class_gui_component_a1a24d7d4f14f0bcd7d9f81a397c79f4e}} 
+\mbox{\Hypertarget{class_gui_component_ad94998891efad935b4422cf1da69e4af}\label{class_gui_component_ad94998891efad935b4422cf1da69e4af}} 
 \index{GuiComponent@{GuiComponent}!````~GuiComponent@{$\sim$GuiComponent}}
 \index{````~GuiComponent@{$\sim$GuiComponent}!GuiComponent@{GuiComponent}}
-\subsubsection{\texorpdfstring{$\sim$GuiComponent()}{~GuiComponent()}}
-{\footnotesize\ttfamily virtual Gui\+Component\+::$\sim$\+Gui\+Component (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+\subsubsection{\texorpdfstring{$\sim$GuiComponent()}{~GuiComponent()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Gui\+Component\+::$\sim$\+Gui\+Component (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+\mbox{\Hypertarget{class_gui_component_a39e1734c781ba4ac8c87da58e0a10ebd}\label{class_gui_component_a39e1734c781ba4ac8c87da58e0a10ebd}} 
+\index{GuiComponent@{GuiComponent}!GuiComponent@{GuiComponent}}
+\index{GuiComponent@{GuiComponent}!GuiComponent@{GuiComponent}}
+\subsubsection{\texorpdfstring{GuiComponent()}{GuiComponent()}}
+{\footnotesize\ttfamily Gui\+Component\+::\+Gui\+Component (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_gui_component_ad94998891efad935b4422cf1da69e4af}\label{class_gui_component_ad94998891efad935b4422cf1da69e4af}} 
+\index{GuiComponent@{GuiComponent}!````~GuiComponent@{$\sim$GuiComponent}}
+\index{````~GuiComponent@{$\sim$GuiComponent}!GuiComponent@{GuiComponent}}
+\subsubsection{\texorpdfstring{$\sim$GuiComponent()}{~GuiComponent()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Gui\+Component\+::$\sim$\+Gui\+Component (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
 
 
 
@@ -65,6 +87,16 @@ int \mbox{\hyperlink{class_gui_component_a8fb428ee8083cdaf7d1f9729a22bcf84}{gui\
 \index{AttachToGuiManager@{AttachToGuiManager}!GuiComponent@{GuiComponent}}
 \subsubsection{\texorpdfstring{AttachToGuiManager()}{AttachToGuiManager()}}
 {\footnotesize\ttfamily virtual void Gui\+Component\+::\+Attach\+To\+Gui\+Manager (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_gui_manager}{Gui\+Manager}} $\ast$}]{gui\+Manager }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+\mbox{\Hypertarget{class_gui_component_a11b7920b50fe9e10a7f2450a79e03647}\label{class_gui_component_a11b7920b50fe9e10a7f2450a79e03647}} 
+\index{GuiComponent@{GuiComponent}!CreateGuiData@{CreateGuiData}}
+\index{CreateGuiData@{CreateGuiData}!GuiComponent@{GuiComponent}}
+\subsubsection{\texorpdfstring{CreateGuiData()}{CreateGuiData()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_gui_data}{Gui\+Data}} $\ast$ Gui\+Component\+::\+Create\+Gui\+Data (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{class_component_a634070ac3118a22828bd3c130f27cf2a}{Component}}.
 
 \mbox{\Hypertarget{class_gui_component_a57b8809f4ce6a4e238c5b87c158da99b}\label{class_gui_component_a57b8809f4ce6a4e238c5b87c158da99b}} 
 \index{GuiComponent@{GuiComponent}!GuiId@{GuiId}}
@@ -81,6 +113,26 @@ int \mbox{\hyperlink{class_gui_component_a8fb428ee8083cdaf7d1f9729a22bcf84}{gui\
 
 
 Implemented in \mbox{\hyperlink{class_button_component_a2f8433707fbd9c184ba359bc41f49305}{Button\+Component}}.
+
+\mbox{\Hypertarget{class_gui_component_a6721cce20f5628d9413784b10a48b359}\label{class_gui_component_a6721cce20f5628d9413784b10a48b359}} 
+\index{GuiComponent@{GuiComponent}!RestoreGuiComponent@{RestoreGuiComponent}}
+\index{RestoreGuiComponent@{RestoreGuiComponent}!GuiComponent@{GuiComponent}}
+\subsubsection{\texorpdfstring{RestoreGuiComponent()}{RestoreGuiComponent()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_gui_data}{Gui\+Data}} $\ast$ Gui\+Component\+::\+Restore\+Gui\+Component (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_gui_data}{Gui\+Data}} $\ast$}]{gui\+Data }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{class_component_a0a1e8b4aaa523ad8b6460ff35dd6c584}{Component}}.
+
+\mbox{\Hypertarget{class_gui_component_af41e8f80eeca9b258649c7579a7e8c5c}\label{class_gui_component_af41e8f80eeca9b258649c7579a7e8c5c}} 
+\index{GuiComponent@{GuiComponent}!SaveGuiState@{SaveGuiState}}
+\index{SaveGuiState@{SaveGuiState}!GuiComponent@{GuiComponent}}
+\subsubsection{\texorpdfstring{SaveGuiState()}{SaveGuiState()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_gui_data}{Gui\+Data}} $\ast$ Gui\+Component\+::\+Save\+Gui\+State (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{class_component_a2d6c81535df008c6788ba21d0812ed44}{Component}}.
 
 \mbox{\Hypertarget{class_gui_component_a131dadcfcbe0278cf6c995a64cca871f}\label{class_gui_component_a131dadcfcbe0278cf6c995a64cca871f}} 
 \index{GuiComponent@{GuiComponent}!SendData@{SendData}}
@@ -129,6 +181,7 @@ Implemented in \mbox{\hyperlink{class_button_component_a32986620f217bace2cbbd10f
 
 
 
-The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
 \item 
-\mbox{\hyperlink{_gui_component_8h}{Gui\+Component.\+h}}\end{DoxyCompactItemize}
+\mbox{\hyperlink{_mediator_2_mediator_2_gui_component_8h}{Mediator/\+Mediator/\+Gui\+Component.\+h}}\item 
+\mbox{\hyperlink{_gui_component_8cpp}{Gui\+Component.\+cpp}}\end{DoxyCompactItemize}

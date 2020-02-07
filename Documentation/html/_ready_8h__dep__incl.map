@@ -1,0 +1,13 @@
+<map id="Ready.h" name="Ready.h">
+<area shape="rect" id="node1" title=" " alt="" coords="333,5,404,32"/>
+<area shape="rect" id="node2" href="$_initialize_8h.html" title=" " alt="" coords="173,80,253,107"/>
+<area shape="rect" id="node5" href="$_stopped_8h.html" title=" " alt="" coords="328,229,409,256"/>
+<area shape="rect" id="node11" href="$_ready_8cpp.html" title=" " alt="" coords="419,80,503,107"/>
+<area shape="rect" id="node3" href="$_state_8cpp.html" title="Design Patterns : State." alt="" coords="5,155,84,181"/>
+<area shape="rect" id="node4" href="$_shutdown_8h.html" title=" " alt="" coords="109,155,199,181"/>
+<area shape="rect" id="node10" href="$_initialize_8cpp.html" title=" " alt="" coords="224,155,319,181"/>
+<area shape="rect" id="node9" href="$_shutdown_8cpp.html" title=" " alt="" coords="102,229,206,256"/>
+<area shape="rect" id="node6" href="$_running_8h.html" title=" " alt="" coords="470,304,550,331"/>
+<area shape="rect" id="node8" href="$_stopped_8cpp.html" title=" " alt="" coords="321,304,416,331"/>
+<area shape="rect" id="node7" href="$_running_8cpp.html" title=" " alt="" coords="463,379,557,405"/>
+</map>

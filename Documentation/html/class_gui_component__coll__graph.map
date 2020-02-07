@@ -1,4 +1,5 @@
 <map id="GuiComponent" name="GuiComponent">
-<area shape="rect" id="node1" title=" " alt="" coords="5,219,169,384"/>
-<area shape="rect" id="node2" href="$class_gui_manager.html" title=" " alt="" coords="23,5,151,156"/>
+<area shape="rect" id="node1" title=" " alt="" coords="92,219,265,457"/>
+<area shape="rect" id="node2" href="$class_component.html" title=" " alt="" coords="5,20,179,141"/>
+<area shape="rect" id="node3" href="$class_gui_manager.html" title=" " alt="" coords="203,5,331,156"/>
 </map>
