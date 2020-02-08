@@ -44,7 +44,7 @@ Collection of various design patterns with example implementation in C++. Creati
 | [State] | Alter the Objects behaviour when internal parameters change |
 | [Strategy] | Run-time changing of objects inturn changing behaviour |
 | [Template] | Provides Skeleton in superclass allowing some of the steps to be overriden by subclasses |
-| [Visitor] |  |
+| [Visitor] | Add new operations without changing the existing code |
 
 ## References
 |**Books**||
