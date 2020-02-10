@@ -2,6 +2,7 @@
 
 # Design Patterns using C++
 
+
 [![Build status](https://ci.appveyor.com/api/projects/status/ift8fadhnt3snpah?svg=true)](https://ci.appveyor.com/project/jayavardhanravi/designpatterns)
 ![Language](https://img.shields.io/badge/language-C++-Blue)
 ![License](https://img.shields.io/badge/license-BSD2Clause-Green)
@@ -11,6 +12,7 @@ Collection of various design patterns with example implementation in C++. Creati
 **Note:** Code is NOT optimized but is used as a part of knowledge sharing.
 
 ## Creational Design Patterns 
+- - - -
 
 | Pattern Name | Description  |
 | :---   | :--- |
@@ -21,6 +23,7 @@ Collection of various design patterns with example implementation in C++. Creati
 | [Singleton] | Build Class with single instance|
 
 ## Structural Design Patterns
+- - - -
 | Pattern Name | Description  |
 | :---   | :--- |
 | [Adapter] | Link Objects with incompatable interfaces/classes |
@@ -32,6 +35,7 @@ Collection of various design patterns with example implementation in C++. Creati
 | [Proxy] | Controlled access to original object |
 
 ## Behavioral Design Patterns
+- - - -
 | Pattern Name | Description  |
 | :---   | :--- |
 | [Chain of Responsibility] | Handle Request/Data by multiple configurable Handlers |
@@ -47,6 +51,8 @@ Collection of various design patterns with example implementation in C++. Creati
 | [Visitor] | Add new operations without changing the existing code |
 
 ## How to build the project
+- - - -
+  
 ### Clone the Repository
 `git clone https://github.com/jayavardhanravi/DesignPatterns.git`
 ### Open Solution file in Visual studio
@@ -55,6 +61,7 @@ In this project I used Visual Studio 2017. Choose and build the specific design 
 <img align="center" width="350" height="1080" src="https://github.com/jayavardhanravi/DesignPatterns/blob/master/Images/image_001.PNG">
 
 ## References
+- - - -
 |**Books**||
 | :---   | :---   |
 | **Book Title** | *Design Patterns Elements Of Reusable Object-Oriented Software* |
@@ -62,6 +69,7 @@ In this project I used Visual Studio 2017. Choose and build the specific design 
 | **Publication Year** | *2016* |
 
 ## License
+- - - -
 ![License](https://img.shields.io/badge/license-BSD2Clause-Green)
 
 BSD 2-Clause License
