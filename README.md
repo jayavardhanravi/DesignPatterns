@@ -52,7 +52,7 @@ Collection of various design patterns with example implementation in C++. Creati
 ### Open Solution file in Visual studio
 In this project I used Visual Studio 2017. Choose and build the specific design pattern either in Debug or Release
 
-<img align="center" width="350" height="850" src="https://github.com/jayavardhanravi/DesignPatterns/blob/master/Images/image_001.PNG">
+<img align="center" width="350" height="1080" src="https://github.com/jayavardhanravi/DesignPatterns/blob/master/Images/image_001.PNG">
 
 ## References
 |**Books**||
