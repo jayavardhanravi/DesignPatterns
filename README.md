@@ -1,4 +1,4 @@
-<img align="left" width="50" height="50" src="https://github.com/jayavardhanravi/DesignPatterns/blob/master/DesignPatterns/D848DC3F-64EC-4D37-9F05-72D98DFCF355.jpeg"> 
+<img align="left" width="50" height="50" src="https://github.com/jayavardhanravi/DesignPatterns/blob/master/DesignPatterns/Images/logo.jpeg"> 
 
 # Design Patterns using C++
 
@@ -47,6 +47,14 @@ Collection of various design patterns with example implementation in C++. Creati
 | [Visitor] | Add new operations without changing the existing code |
 
 ## How to build the project
+### Clone the Repository
+`git clone https://github.com/jayavardhanravi/DesignPatterns.git`
+### Open Solution file in Visual studio
+In this project I used Visual Studio 2017. Choose and build the specific design pattern either in Debug or Release
+
+
+<img align="left" width="200" height="150" src="https://github.com/jayavardhanravi/DesignPatterns/blob/master/DesignPatterns/Images/image_001.jpeg">
+
 
 ## References
 |**Books**||
