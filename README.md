@@ -46,6 +46,8 @@ Collection of various design patterns with example implementation in C++. Creati
 | [Template] | Provides Skeleton in superclass allowing some of the steps to be overriden by subclasses |
 | [Visitor] | Add new operations without changing the existing code |
 
+## How to build the project
+
 ## References
 |**Books**||
 | :---   | :---   |
