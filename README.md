@@ -99,7 +99,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 [Singleton]: https://github.com/jayavardhanravi/DesignPatterns/tree/master/Singleton
 [Adapter]: https://github.com/jayavardhanravi/DesignPatterns/tree/master/Adapter
 [Bridge]: https://github.com/jayavardhanravi/DesignPatterns/tree/master/Bridge
-[Composition]: https://github.com/jayavardhanravi/DesignPatterns/tree/master/Composition
+[Composition]: https://github.com/jayavardhanravi/DesignPatterns/tree/master/Composite
 [Decorator]: https://github.com/jayavardhanravi/DesignPatterns/tree/master/Decorator
 [Facade]: https://github.com/jayavardhanravi/DesignPatterns/tree/master/Facade
 [Flyweight]: https://github.com/jayavardhanravi/DesignPatterns/tree/master/Flyweight
